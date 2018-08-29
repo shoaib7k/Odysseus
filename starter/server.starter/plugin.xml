@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="OdysseusServerApplication"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="de.uniol.inf.is.odysseus.product.server.starter.OdysseusServerApplication">
+         </run>
+      </application>
+   </extension>
+   <extension
+         id="odysseusserverproduct"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="de.uniol.inf.is.odysseus.server.starter.OdysseusServerApplication"
+            name="Odysseus Server">
+         <property
+               name="appName"
+               value="Odysseus Server">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
