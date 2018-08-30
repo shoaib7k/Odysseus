@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Odysseus Target Platform" sequenceNumber="1502128611">
+<?pde version="3.8"?><target name="Odysseus Target Platform" sequenceNumber="1502128612">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="false" type="InstallableUnit">
 <unit id="org.eclipse.core.runtime.feature.feature.group" version="1.1.102.v20160128-1558"/>
@@ -374,6 +374,7 @@
 <unit id="de.uniol.inf.is.odysseus.wrapper.hdfs.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.wrapper.iec60870.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.wrapper.iec62056.feature.feature.group" version="0.0.0"/>
+<unit id="de.uniol.inf.is.odysseus.wrapper.json.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.wrapper.kafka.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.wrapper.lms1xx.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.wrapper.mail.feature.feature.group" version="0.0.0"/>
