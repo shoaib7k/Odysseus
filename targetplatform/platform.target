@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Odysseus Target Platform" sequenceNumber="1502128612">
+<?pde version="3.8"?><target name="Odysseus Target Platform" sequenceNumber="1502128613">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="false" type="InstallableUnit">
 <unit id="org.eclipse.core.runtime.feature.feature.group" version="1.1.102.v20160128-1558"/>
@@ -61,7 +61,7 @@
 <unit id="org.eclipse.xtext.sdk.feature.group" version="2.14.0.v20180523-0937"/>
 <repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/modeling/tmf/xtext/updates/composite/releases/"/>
 </location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="false" type="InstallableUnit">
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="ANTLR3_4.feature.feature.group" version="0.0.0"/>
 <unit id="ANTLR3_4.source.feature.feature.group" version="0.0.0"/>
 <unit id="Commons.Math.feature.feature.group" version="0.0.0"/>
@@ -243,7 +243,7 @@
 <unit id="org.junit" version="4.12.0.v201504281640"/>
 <repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20180730183850/repository/"/>
 </location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="false" type="InstallableUnit">
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="de.uniol.inf.ei.odysseus.nds.bda.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.ei.odysseus.nds.bda.test.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.ei.odysseus.nds.mvrec.feature.feature.group" version="0.0.0"/>
