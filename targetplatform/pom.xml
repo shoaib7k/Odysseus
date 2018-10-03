@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
  <parent>
 		<groupId>de.uniol.inf.is.odysseus</groupId>
-		<artifactId>de.uniol.inf.is.odysseus.root</artifactId>
+		<artifactId>de.uniol.inf.is.odysseus.odysseus_dev</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
     <groupId>de.uniol.inf.is.odysseus</groupId>
