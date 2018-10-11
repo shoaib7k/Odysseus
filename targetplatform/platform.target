@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Odysseus Target Platform" sequenceNumber="1502128628">
+<?pde version="3.8"?><target name="Odysseus Target Platform" sequenceNumber="1502128631">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="false" type="InstallableUnit">
 <unit id="org.eclipse.core.runtime.feature.feature.group" version="1.1.102.v20160128-1558"/>
@@ -195,11 +195,6 @@
 <unit id="de.uniol.inf.is.odysseus.eca.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.eca.plugin.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.eca.ui.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.estream.server.starter.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.estream.test.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.estream.test.product.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.estream.topology.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.finance.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.graph.server.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.image.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.imagejcv.feature.feature.group" version="0.0.0"/>
@@ -237,8 +232,6 @@
 <unit id="de.uniol.inf.is.odysseus.rcp.dashboard.soccer.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.rcp.dashboard.windrose.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.rcp.evaluation.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.recommendation.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.recommendation.lod.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.relational.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.rest.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.s100.feature.feature.group" version="0.0.0"/>
@@ -255,9 +248,6 @@
 <unit id="de.uniol.inf.is.odysseus.sentimentdetection.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.server.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.server.fragmentation.base.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.monitoring.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.nosql.elasticsearch.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.nosql.mongodb.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.server.platform.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.server.rdf.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.server.redis.feature.feature.group" version="0.0.0"/>
@@ -281,7 +271,6 @@
 <unit id="de.uniol.inf.is.odysseus.test.generator.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.text.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.textprocessing.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.timeseries.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.trajectory.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.usermanagement.store.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.video.feature.feature.group" version="0.0.0"/>
