@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Odysseus Target Platform" sequenceNumber="1502128633">
+<?pde version="3.8"?><target name="Odysseus Target Platform" sequenceNumber="1502128634">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="false" type="InstallableUnit">
 <unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
@@ -251,11 +251,7 @@
 <unit id="de.uniol.inf.is.odysseus.server.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.server.fragmentation.base.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.server.platform.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.rdf.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.redis.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.sparql.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.streamingsparql.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.streamingsparql.ui.feature.feature.group" version="0.0.0"/>
+<unit id="de.uniol.inf.is.odysseus.server.rdf.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.server.xml.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.slf4j.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.spatial.client.feature.feature.group" version="0.0.0"/>
