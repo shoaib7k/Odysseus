@@ -20,6 +20,9 @@ http://odysseus.informatik.uni-oldenburg.de/
    <launcherArgs>
       <programArgs>-console -clean -debug -nl en -data @noDefault
       </programArgs>
+      <programArgsLin>--launcher.GTK_version
+2
+      </programArgsLin>
       <vmArgs>-Xms1000M -Xmx1000M -Declipse.log.level=ERROR
       </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
