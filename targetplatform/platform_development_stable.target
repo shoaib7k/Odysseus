@@ -194,7 +194,6 @@
 <unit id="de.uniol.inf.is.odysseus.planmgmt.standard.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.rcp.dashboard.colors.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.rcp.dashboard.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.part.map.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.rcp.dashboard.soccer.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.rcp.dashboard.windrose.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.rcp.evaluation.feature.feature.group" version="0.0.0"/>
