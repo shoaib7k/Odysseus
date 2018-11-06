@@ -1,16 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+    http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-
-<project>
-    <modelVersion>4.0.0</modelVersion>
- <parent>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
 		<groupId>de.uniol.inf.is.odysseus</groupId>
 		<artifactId>de.uniol.inf.is.odysseus.odysseus_dev</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-    <groupId>de.uniol.inf.is.odysseus</groupId>
+	
     <artifactId>platform</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>eclipse-target-definition</packaging>
+
+	<packaging>pom</packaging>
+
+	<profiles>
+		<profile>
+			<id>default</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<target-file-name>platform_development_all.target</target-file-name>
+			</properties>
+		</profile>
+		<profile>
+			<id>master-all</id>
+			<properties>
+				<target-file-name>platform_master_all.target</target-file-name>
+			</properties>
+		</profile>
+		<profile>
+			<id>development-stable</id>
+			<properties>
+				<target-file-name>platform_development_stable.target</target-file-name>
+			</properties>
+		</profile>
+		<profile>
+			<id>master-stable</id>
+			<properties>
+				<target-file-name>platform_master_stable.target</target-file-name>
+			</properties>
+		</profile>
+	</profiles>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<version>3.0.0</version>
+				<executions>
+					<execution>
+						<id>attach-artifacts</id>
+						<phase>package</phase>
+						<goals>
+							<goal>attach-artifact</goal>
+						</goals>
+						<configuration>
+							<artifacts>
+								<artifact>
+									<file>${target-file-name}</file>
+									<type>target</type>
+									<classifier>${targetfilename}</classifier>
+								</artifact>
+							</artifacts>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
 

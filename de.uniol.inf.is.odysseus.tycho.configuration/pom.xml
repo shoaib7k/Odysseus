@@ -9,6 +9,7 @@
 	<properties>
 		<tycho.version>1.2.0</tycho.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<targetfilename>platform_master_all</targetfilename>
 	</properties>
 	<build>
 		<plugins>
@@ -42,9 +43,10 @@
 							<groupId>de.uniol.inf.is.odysseus</groupId>
 							<artifactId>platform</artifactId>
 							<version>1.0.0-SNAPSHOT</version>
+							<classifier>${targetfilename}</classifier>
 						</artifact>
 					</target>
-
+					<targetDefinitionIncludeSource>honor</targetDefinitionIncludeSource>
 					<environments>
 						<environment>
 							<os>linux</os>
