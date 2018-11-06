@@ -205,8 +205,6 @@
 <unit id="de.uniol.inf.is.odysseus.server.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.server.fragmentation.base.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.server.platform.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.rdf.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.xml.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.slf4j.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.studio.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.systemload.feature.feature.group" version="0.0.0"/>
