@@ -58,11 +58,11 @@
 <unit id="org.eclipse.xtend.sdk.feature.group" version="0.0.0"/>
 <unit id="org.eclipse.xtext.redist.feature.group" version="0.0.0"/>
 <unit id="org.eclipse.xtext.sdk.feature.group" version="0.0.0"/>
-<repository location="https://odysseus.informatik.uni-oldenburg.de/mirrors/xtext/2.14.0/"/>
+<repository location="http://odysseus.informatik.uni-oldenburg.de/mirrors/xtext/2.14.0/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="0.0.0"/>
-<repository location="https://odysseus.informatik.uni-oldenburg.de/mirrors/emf/mwe/"/>
+<repository location="http://odysseus.informatik.uni-oldenburg.de/mirrors/emf/mwe/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="ANTLR3_4.feature.feature.group" version="0.0.0"/>
@@ -217,7 +217,7 @@
 <unit id="de.uniol.inf.is.odysseus.wrapper.web.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="0.0.0"/>
 <unit id="de.uniol.inf.is.odysseus.xtext.ui.feature.feature.group" version="0.0.0"/>
-<repository location="https://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus/origin/master/latest/"/>
+<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus/origin/master/latest/"/>
 </location>
 </locations>
 </target>
