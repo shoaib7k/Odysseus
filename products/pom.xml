@@ -1,19 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>de.uniol.inf.is.odysseus.odysseus_dev</artifactId>
-	<packaging>pom</packaging>
-
 	<parent>
 		<groupId>de.uniol.inf.is.odysseus</groupId>
-		<artifactId>de.uniol.inf.is.odysseus</artifactId>
+		<artifactId>de.uniol.inf.is.odysseus.odysseus_dev</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
+	<artifactId>de.uniol.inf.is.odysseus.odysseus_dev.products</artifactId>
+	<packaging>pom</packaging>
+
 	<modules>
-		<module>targetplatform</module>	
-		<!-- uncomment the following line to build products -->
-		<!-- <module>products</module> -->	
+		<module>client</module>	
+		<module>server</module>	
+		<module>monolithic</module>	
 	</modules>
 
 </project>
