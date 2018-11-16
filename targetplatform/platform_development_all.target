@@ -146,6 +146,8 @@
 			<unit id="qdox.feature.feature.group" version="0.0.0"/>
 			<unit id="restlet.osgi.2.3.1.feature.feature.group" version="0.0.0"/>
 			<unit id="rxtx.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.xtext.ui.feature.feature.group" version="0.0.0"/>
 			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/resources/latest/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
@@ -313,8 +315,6 @@
 			<unit id="de.uniol.inf.is.odysseus.wrapper.xovis.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.zeromq.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wsenrich.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.xtext.ui.feature.feature.group" version="0.0.0"/>
 			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all/origin/development/latest/"/>
 		</location>
 	</locations>
