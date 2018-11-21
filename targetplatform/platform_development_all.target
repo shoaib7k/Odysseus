@@ -257,9 +257,9 @@
 			<unit id="de.uniol.inf.is.odysseus.server.rdf.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.server.xml.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.slf4j.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.spatial.client.feature.feature.group" version="0.0.0"/>
+<!--			<unit id="de.uniol.inf.is.odysseus.spatial.client.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.spatial.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.spatiotemporal.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.spatiotemporal.feature.feature.group" version="0.0.0"/> -->
 			<unit id="de.uniol.inf.is.odysseus.studio.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.systemload.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.test.component.compile.feature.feature.group" version="0.0.0"/>
@@ -272,7 +272,7 @@
 			<unit id="de.uniol.inf.is.odysseus.test.generator.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.text.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.textprocessing.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.trajectory.feature.feature.group" version="0.0.0"/>
+<!--			<unit id="de.uniol.inf.is.odysseus.trajectory.feature.feature.group" version="0.0.0"/> -->
 			<unit id="de.uniol.inf.is.odysseus.usermanagement.store.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.video.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.actisense.feature.feature.group" version="0.0.0"/>
@@ -286,7 +286,7 @@
 			<unit id="de.uniol.inf.is.odysseus.wrapper.iec62056.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.json.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.kafka.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.wrapper.lms1xx.feature.feature.group" version="0.0.0"/>
+<!--			<unit id="de.uniol.inf.is.odysseus.wrapper.lms1xx.feature.feature.group" version="0.0.0"/>-->
 			<unit id="de.uniol.inf.is.odysseus.wrapper.mail.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.mosaik.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.mqtt.feature.feature.group" version="0.0.0"/>
