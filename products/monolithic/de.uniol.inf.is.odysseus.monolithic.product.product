@@ -73,11 +73,6 @@ limitations under the License.
    <features>
       <feature id="de.uniol.inf.is.odysseus.client.platform.feature"/>
       <feature id="de.uniol.inf.is.odysseus.monolithic.feature"/>
-      <feature id="de.uniol.inf.is.odysseus.latency.feature"/>
-      <feature id="de.uniol.inf.is.odysseus.priority.feature"/>
-      <feature id="de.uniol.inf.is.odysseus.keyvalue.datahandler.feature"/>
-      <feature id="de.uniol.inf.is.odysseus.parser.cql2.feature"/>
-      <feature id="de.uniol.inf.is.odysseus.parser.cql2.ui.feature"/>
    </features>
 
    <configurations>
