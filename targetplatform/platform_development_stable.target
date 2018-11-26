@@ -142,6 +142,7 @@
 			<unit id="org.scala.lang.scala.feature.feature.group" version="0.0.0"/>
 			<unit id="org.sesame.feature.feature.group" version="0.0.0"/>
 			<unit id="org.simpleframework.xml.feature.feature.group" version="0.0.0"/>
+			<unit id="org.slf4j_0.feature.feature.group" version="0.0.0"/>			
 			<unit id="org.xerial.snappy.java.feature.feature.group" version="0.0.0"/>
 			<unit id="qdox.feature.feature.group" version="0.0.0"/>
 			<unit id="restlet.osgi.2.3.1.feature.feature.group" version="0.0.0"/>
@@ -211,6 +212,7 @@
 			<unit id="de.uniol.inf.is.odysseus.slf4j.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.studio.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.systemload.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.core.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.usermanagement.store.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.json.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.mail.feature.feature.group" version="0.0.0"/>

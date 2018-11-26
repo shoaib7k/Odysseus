@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="Odysseus Target Platform" sequenceNumber="1502128634">
+<target name="Odysseus Target Platform" sequenceNumber="1502128635">
 	<locations>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
@@ -142,6 +142,7 @@
 			<unit id="org.scala.lang.scala.feature.feature.group" version="0.0.0"/>
 			<unit id="org.sesame.feature.feature.group" version="0.0.0"/>
 			<unit id="org.simpleframework.xml.feature.feature.group" version="0.0.0"/>
+			<unit id="org.slf4j_0.feature.feature.group" version="0.0.0"/>
 			<unit id="org.xerial.snappy.java.feature.feature.group" version="0.0.0"/>
 			<unit id="qdox.feature.feature.group" version="0.0.0"/>
 			<unit id="restlet.osgi.2.3.1.feature.feature.group" version="0.0.0"/>
@@ -260,6 +261,7 @@
 			<unit id="de.uniol.inf.is.odysseus.spatial.client.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.spatial.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.spatiotemporal.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.core.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.usermanagement.store.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.lms1xx.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.trajectory.feature.feature.group" version="0.0.0"/>
