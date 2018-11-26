@@ -261,6 +261,7 @@
 			<unit id="de.uniol.inf.is.odysseus.spatial.client.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.spatial.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.spatiotemporal.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.core.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.usermanagement.store.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.lms1xx.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.trajectory.feature.feature.group" version="0.0.0"/>
