@@ -54,22 +54,19 @@
    </plugins>
 
    <features>
-      <feature id="de.uniol.inf.is.odysseus.server.platform.feature"/>
-      <feature id="de.uniol.inf.is.odysseus.server.feature"/>
+      <feature id="de.uniol.inf.is.odysseus.server.platform.feature" installMode="root"/>
+      <feature id="de.uniol.inf.is.odysseus.server.feature" installMode="root"/>
    </features>
 
    <configurations>
-      <plugin id="de.uniol.inf.is.odysseus.server.starter" autoStart="true" startLevel="0" />
-      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="de.uniol.inf.is.odysseus.server.starter" autoStart="true" startLevel="3" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="1" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="1" />
-      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.osgi" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4"/>
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="3" />
+      <plugin id="org.eclipse.osgi" autoStart="true" startLevel="1" />
+      <property name="org.eclipse.update.reconcile" value="false" />
    </configurations>
-
-   <preferencesInfo>
-      <targetfile overwrite="false"/>
-   </preferencesInfo>
 
    <cssInfo>
    </cssInfo>
