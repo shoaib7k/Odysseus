@@ -13,7 +13,8 @@
 	<modules>
 		<module>client</module>	
 		<module>server</module>	
-		<module>monolithic</module>	
+		<module>monolithic</module>
+		<module>test</module>
 	</modules>
 
 </project>
