@@ -268,7 +268,7 @@
 			<unit id="de.uniol.inf.is.odysseus.studio.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.systemload.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.temporaltypes.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.generator.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.core.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.text.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.textprocessing.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.video.feature.feature.group" version="0.0.0"/>
