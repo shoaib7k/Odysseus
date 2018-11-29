@@ -12,7 +12,7 @@
 
 	<modules>
 		<module>test.core</module>	
-		<module>test.feature</module>	
+		<module>test.core.feature</module>	
 		<module>test.product</module>
 	</modules>
 
