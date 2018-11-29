@@ -170,11 +170,8 @@
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="de.uniol.inf.ei.odysseus.nds.bda.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.ei.odysseus.nds.bda.test.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.ei.odysseus.nds.mvrec.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.ei.odysseus.nds.mvrec.test.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.ei.odysseus.nds.proxy.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.ei.odysseus.nds.proxy.test.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.admission.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.aggregation.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.anomalydetection.feature.feature.group" version="0.0.0"/>
@@ -267,14 +264,6 @@
 			<unit id="de.uniol.inf.is.odysseus.studio.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.systemload.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.temporaltypes.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.component.compile.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.component.jira.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.component.keyvalue.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.component.nexmark.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.component.operator.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.component.xml.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.generator.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.text.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.textprocessing.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.video.feature.feature.group" version="0.0.0"/>
