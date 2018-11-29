@@ -1,38 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Test Runner Product" uid="de.uniol.inf.is.odysseus.test.runner.product" id="de.uniol.inf.is.odysseus.test.odysseustestproduct" application="de.uniol.inf.is.odysseus.test.core.OdysseusTestApplication" version="1.0.0" useFeatures="true" includeLaunchers="true">
+<product name="Test Runner Product" uid="de.uniol.inf.is.odysseus.test.runner.product" id="de.uniol.inf.is.odysseus.test.core.odysseustestproduct" application="de.uniol.inf.is.odysseus.test.core.OdysseusTestApplication" version="1.0.0" useFeatures="true" includeLaunchers="false">
 
-	<configIni use="default">
-	</configIni>
+   <configIni use="default">
+   </configIni>
 
-	<launcherArgs>
-		<programArgs>-nl en -consoleLog -debug .options System manager -data @userData -clean -console
-		</programArgs>
-		<programArgsLin>-os linux -ws gtk -arch x86_64
-		</programArgsLin>
-		<vmArgs>-Dosgi.requiredJavaVersion=1.8 -Xms1024m -Xmx2048m -Dlog4j.configuration=log4j.test.properties
-		</vmArgs>
-		<vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
-		</vmArgsMac>
-	</launcherArgs>
+   <launcherArgs>
+      <programArgs>-nl en -consoleLog -debug .options System manager -data @userData -clean -console
+      </programArgs>
+      <programArgsLin>-os linux -ws gtk -arch x86_64
+      </programArgsLin>
+      <vmArgs>-Dosgi.requiredJavaVersion=1.8 -Xms1024m -Xmx2048m -Dlog4j.configuration=log4j.test.properties
+      </vmArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
 
-	<windowImages/>
+   <windowImages/>
 
-	<launcher>
+   <launcher>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
 
-		<win useIco="false">
+   <vm>
+      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</windows>
+   </vm>
 
-			<bmp/>
-		</win>
-	</launcher>
-
-	<vm>
-		<windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</windows>
-	</vm>
-
-
-  <license>
+   <license>
         <url>http://www.apache.org/licenses/LICENSE-2.0</url>
         <text>
    /********************************************************************************** 
@@ -53,29 +50,30 @@
          </text>
    </license>
 
-   
+   <plugins>
+   </plugins>
 
-	<plugins>
-	</plugins>
+   <features>
+      <feature id="de.uniol.inf.is.odysseus.server.platform.feature" installMode="root"/>
+      <feature id="de.uniol.inf.is.odysseus.server.feature" installMode="root"/>
+      <feature id="de.uniol.inf.is.odysseus.test.feature" installMode="root"/>
+   </features>
 
-	<features>
-		<feature id="de.uniol.inf.is.odysseus.server.platform.feature" installMode="root"/>
-		<feature id="de.uniol.inf.is.odysseus.server.feature" installMode="root"/>
-		<feature id="de.uniol.inf.is.odysseus.test.feature" installMode="root"/>
-	</features>
+   <configurations>
+      <plugin id="de.uniol.inf.is.odysseus.test.core" autoStart="true" startLevel="3" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="3" />
+      <plugin id="org.eclipse.osgi" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
+      <property name="org.eclipse.update.reconcile" value="false" />
+   </configurations>
 
-	<configurations>
-		<plugin id="de.uniol.inf.is.odysseus.test.core" autoStart="true" startLevel="3" />
-		<plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="1" />
-		<plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
-		<plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4"/>
-		<plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="3" />
-		<plugin id="org.eclipse.osgi" autoStart="true" startLevel="1" />
-		<property name="org.eclipse.update.reconcile" value="false" />
-	</configurations>
->
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
 
-	<cssInfo>
-	</cssInfo>
+   <cssInfo>
+   </cssInfo>
 
 </product>

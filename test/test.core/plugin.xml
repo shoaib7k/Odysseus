@@ -17,7 +17,7 @@
          id="odysseustestproduct"
          point="org.eclipse.core.runtime.products">
       <product
-            application="de.uniol.inf.is.odysseus.test.OdysseusTestApplication"
+            application="de.uniol.inf.is.odysseus.test.core.OdysseusTestApplication"
             name="Test Runner Product">
          <property
                name="appName"
