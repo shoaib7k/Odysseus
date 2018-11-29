@@ -261,14 +261,20 @@
 			<unit id="de.uniol.inf.is.odysseus.spatial.client.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.spatial.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.spatiotemporal.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.core.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.usermanagement.store.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.lms1xx.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.trajectory.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.studio.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.systemload.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.temporaltypes.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.test.core.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.component.compile.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.component.jira.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.component.keyvalue.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.component.nexmark.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.component.operator.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.component.xml.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.test.generator.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.text.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.textprocessing.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.video.feature.feature.group" version="0.0.0"/>

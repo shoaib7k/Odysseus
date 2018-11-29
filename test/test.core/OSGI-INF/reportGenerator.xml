@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="de.uniol.inf.is.odysseus.test.runner.ReportGenerator">
+   <implementation class="de.uniol.inf.is.odysseus.test.runner.TestRunnerApplication"/>
+   <reference bind="bindReportGenerator" cardinality="1..1" interface="de.uniol.inf.is.odysseus.report.IReportGenerator" name="IReportGenerator" policy="static" unbind="unbindReportGenerator"/>
+</scr:component>
