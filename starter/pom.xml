@@ -13,6 +13,8 @@
 	<modules>
 		<module>client.starter</module>	
 		<module>server.starter</module>	
+		<module>client.starter.feature</module>	
+		<module>server.starter.feature</module>	
 	</modules>
 
 </project>
