@@ -73,6 +73,7 @@ limitations under the License.
    <features>
       <feature id="de.uniol.inf.is.odysseus.client.platform.feature" installMode="root"/>
       <feature id="de.uniol.inf.is.odysseus.client.feature" installMode="root"/>
+      <feature id="de.uniol.inf.is.odysseus.client.starter.feature" installMode="root"/>
    </features>
 
    <configurations>

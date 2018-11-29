@@ -71,9 +71,10 @@ limitations under the License.
    </plugins>
 
    <features>
-       <feature id="de.uniol.inf.is.odysseus.client.platform.feature" installMode="root"/>
+      <feature id="de.uniol.inf.is.odysseus.client.starter.feature" installMode="root"/>
+      <feature id="de.uniol.inf.is.odysseus.client.platform.feature" installMode="root"/>
       <feature id="de.uniol.inf.is.odysseus.monolithic.feature" installMode="root"/>
-      <feature id="de.uniol.inf.is.odysseus.server.feature" installMode="root"/>		
+      <feature id="de.uniol.inf.is.odysseus.server.feature" installMode="root"/>
    </features>
 
    <configurations>
@@ -82,8 +83,7 @@ limitations under the License.
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="3" />
       <plugin id="org.eclipse.osgi" autoStart="true" startLevel="-1" />
-	  <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />																		 
+      <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
    </configurations>
-
 
 </product>
