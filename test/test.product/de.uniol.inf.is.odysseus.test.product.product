@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Test Runner Product" uid="de.uniol.inf.is.odysseus.test.runner.product" id="de.uniol.inf.is.odysseus.test.core.odysseustestproduct" application="de.uniol.inf.is.odysseus.test.core.OdysseusTestApplication" version="1.0.0" useFeatures="true" includeLaunchers="false">
+<product name="Test Runner Product" uid="de.uniol.inf.is.odysseus.test.runner.product" id="de.uniol.inf.is.odysseus.test.core.odysseustestproduct" application="de.uniol.inf.is.odysseus.test.core.OdysseusTestApplication" version="1.0.0" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
