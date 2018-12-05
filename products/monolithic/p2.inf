@@ -1,0 +1,5 @@
+instructions.configure=\
+	addRepository(type:0,location:http${#58}//odysseus.informatik.uni-oldenburg.de/update/);\
+	addRepository(type:1,location:http${#58}//odysseus.informatik.uni-oldenburg.de/update/);\
+	addRepository(type:0,location:http${#58}//odysseus.informatik.uni-oldenburg.de/incubation/);\
+	addRepository(type:1,location:http${#58}//odysseus.informatik.uni-oldenburg.de/incubation/);
