@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="Odysseus Target Platform" sequenceNumber="1502128634">
+<target name="Odysseus Target Platform" sequenceNumber="1502128635">
 	<locations>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
@@ -145,7 +145,7 @@
 			<unit id="org.slf4j_0.feature.feature.group" version="0.0.0"/>
 			<unit id="org.xerial.snappy.java.feature.feature.group" version="0.0.0"/>
 			<unit id="qdox.feature.feature.group" version="0.0.0"/>
-			<unit id="restlet.osgi.2.3.1.feature.feature.group" version="0.0.0"/>
+			<unit id="org.restlet.osgi.2.3.12.feature.feature.group" version="0.0.0"/>
 			<unit id="rxtx.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.xtext.ui.feature.feature.group" version="0.0.0"/>
