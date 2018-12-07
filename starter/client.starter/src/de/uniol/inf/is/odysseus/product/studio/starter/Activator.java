@@ -2,11 +2,7 @@ package de.uniol.inf.is.odysseus.product.studio.starter;
 
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
-import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleContext;
-import org.osgi.framework.Constants;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * The activator class controls the plug-in life cycle
@@ -19,7 +15,7 @@ public class Activator extends AbstractUIPlugin {
 	// The shared instance
 	private static Activator plugin;
 
-	private static Logger logger = LoggerFactory.getLogger(Activator.class);
+	//private static Logger logger = LoggerFactory.getLogger(Activator.class);
 
 	/**
 	 * The constructor
