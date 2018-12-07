@@ -36,34 +36,34 @@ public class Activator extends AbstractUIPlugin {
 	public void start(final BundleContext context) throws Exception {
 		super.start(context);
 		plugin = this;
-		Thread t = new Thread(new Runnable() {
-			@Override
-			public void run() {
-				for (Bundle bundle : context.getBundles()) {
-					boolean isFragment = bundle.getHeaders().get(Constants.FRAGMENT_HOST) != null;				
-					
-					if (bundle != context.getBundle() && !isFragment && bundle.getState() == Bundle.RESOLVED) {
-					 
-						// Just a test
-						if (bundle.getSymbolicName().equals("org.eclipse.core.resources")) {
-							continue;
-						}
-						
-						logger.trace("Try to start bundle " + bundle.getSymbolicName()+" in Version "+bundle.getVersion());
-						try {
-							bundle.start();
-						}catch (IllegalStateException e){
-							if (!e.getMessage().startsWith("Workbench has not been created")){
-								e.printStackTrace();
-							}
-						} catch (Exception e) {
-							e.printStackTrace();
-						}
-					}
-				}
-			}
-		});
-		t.start();
+//		Thread t = new Thread(new Runnable() {
+//			@Override
+//			public void run() {
+//				for (Bundle bundle : context.getBundles()) {
+//					boolean isFragment = bundle.getHeaders().get(Constants.FRAGMENT_HOST) != null;				
+//					
+//					if (bundle != context.getBundle() && !isFragment && bundle.getState() == Bundle.RESOLVED) {
+//					 
+//						// Just a test
+//						if (bundle.getSymbolicName().equals("org.eclipse.core.resources")) {
+//							continue;
+//						}
+//						
+//						logger.trace("Try to start bundle " + bundle.getSymbolicName()+" in Version "+bundle.getVersion());
+//						try {
+//							bundle.start();
+//						}catch (IllegalStateException e){
+//							if (!e.getMessage().startsWith("Workbench has not been created")){
+//								e.printStackTrace();
+//							}
+//						} catch (Exception e) {
+//							e.printStackTrace();
+//						}
+//					}
+//				}
+//			}
+//		});
+//		t.start();
 	}
 
 	/*
