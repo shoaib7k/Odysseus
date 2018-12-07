@@ -59,6 +59,7 @@ public class KeyValueTICompareSink<T extends KeyValueObject<? extends ITimeInter
 		synchronized (expected) {
 			this.expected.clear();
 			this.inputdata.clear();
+			@SuppressWarnings("deprecation")
 			IDataHandler<T> dh = (IDataHandler<T>) DataHandlerRegistry.instance.getDataHandler(this.dataHandler, getOutputSchema());
 			for (Pair<String, String> json : expectedOriginals) {
 				T kvo = dh.readData(json.getE1());
