@@ -41,7 +41,7 @@
 			<unit id="org.eclipse.rcp.source.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.sdk.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.sdk.ide" version="0.0.0"/>
-			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/mars/201602261000/"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/201804111000/plugins/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.draw2d.feature.group" version="3.10.100.201606061308"/>
