@@ -15,7 +15,7 @@
 
 	<build>
 		<plugins>
-			<plugin>
+<!--			<plugin>
 				<groupId>org.eclipse.tycho.extras</groupId>
 				<artifactId>tycho-source-feature-plugin</artifactId>
 				<version>${tycho.extras.version}</version>
@@ -29,7 +29,109 @@
 						</goals>
 						<configuration>
 							<excludes>
-								<!-- provide plug-ins not containing any source code -->
+								<feature id="de.uniol.inf.is.odysseus.common.feature"/>
+								<feature id="de.uniol.inf.is.odysseus.slf4j.feature"/>
+								<feature id="ANTLR3_4.feature"/>
+								<feature id="aopalliance.feature"/>
+								<feature id="argparse4j.feature"/>
+								<feature id="com.fasterxml.jackson.feature"/>
+								<feature id="com.google.code.gson.feature"/>
+								<feature id="com.google.guava.feature"/>
+								<feature id="com.google.guava20.feature"/>
+								<feature id="com.google.protobuf.feature"/>
+								<feature id="com.googlecode.javacv.feature"/>
+								<feature id="com.jaxb.feature"/>
+								<feature id="com.jayway.jsonpath.feature"/>
+								<feature id="com.jogamp.jogl.feature"/>
+								<feature id="com.mongodb.driver.feature"/>
+								<feature id="com.rabbitmq.feature"/>
+								<feature id="com.rits.cloning.feature"/>
+								<feature id="com.vividsolutions.jts.feature"/>
+								<feature id="com.yammer.metrics.feature"/>
+								<feature id="Commons.Math.feature"/>
+								<feature id="de.uniol.inf.ei.oj104.feature"/>
+								<feature id="de.uniol.inf.is.jfreechart.feature"/>
+								<feature id="org.openmuc.jdlms.feature"/>
+								<feature id="sigar.feature"/>
+								<feature id="fastutil.feature"/>
+								<feature id="hk2.feature"/>
+								<feature id="io.netty.feature"/>
+								<feature id="jama.feature"/>
+								<feature id="javaparser.feature"/>
+								<feature id="javax.mail.feature"/>
+								<feature id="javax.validation.feature"/>
+								<feature id="jna.feature"/>
+								<feature id="joptsimple.feature"/>
+								<feature id="lz4.feature"/>
+								<feature id="net.ericaro.surfaceplotter.feature"/>
+								<feature id="net.java.jersey.feature"/>
+								<feature id="org.antlr4.feature"/>
+								<feature id="org.apache.commons.configuration.feature"/>
+								<feature id="org.apache.commons.io.feature"/>
+								<feature id="org.apache.commons.lang.feature"/>
+								<feature id="org.apache.commons.lang3.feature"/>
+								<feature id="org.apache.commons.math3.feature"/>
+								<feature id="org.apache.commons.net.feature"/>
+								<feature id="org.apache.derby.feature"/>
+								<feature id="org.apache.hadoop.feature"/>
+								<feature id="org.apache.hc.feature"/>
+								<feature id="org.slf4j_0.feature"/>
+								<feature id="org.apache.jena.2.13.feature"/>
+								<feature id="org.apache.jlibs.feature"/>
+								<feature id="org.apache.kafka.feature"/>
+								<feature id="org.apache.mahout.feature"/>
+								<feature id="org.apache.tika.core.feature"/>
+								<feature id="org.apache.tika.bundle.feature"/>
+								<feature id="org.apache.tika.parsers.feature"/>
+								<feature id="org.apache.zookeeper.feature"/>
+								<feature id="org.bytedeco.javacv.feature"/>
+								<feature id="org.codehaus.woodstox.stax2-api.feature"/>
+								<feature id="org.eclipse.nebula.feature"/>
+								<feature id="org.eclipse.paho.client.mqttv3.feature"/>
+								<feature id="org.eclipse.pde.feature"/>
+								<feature id="com.google.inject.feature"/>
+								<feature id="org.objectweb.asm.feature"/>
+								<feature id="org.apache.log4j.feature"/>
+								<feature id="org.antlr.runtime.feature"/>
+								<feature id="org.eclipse.xpand.feature"/>
+								<feature id="org.eclipse.xtend.feature"/>
+								<feature id="org.eclipse.emf.mwe.core.feature"/>
+								<feature id="org.eclipse.xtend.typesystem.emf.feature"/>
+								<feature id="org.apache.commons.cli.feature"/>
+								<feature id="org.eclipse.emf.mwe.utils.feature"/>
+								<feature id="org.elasticsearch.driver.feature"/>
+								<feature id="org.geotools.feature"/>
+								<feature id="org.graphstream.gs-algo.feature"/>						
+								<feature id="org.graphstream.gs-core.feature"/>
+								<feature id="org.i0itec.zkclient.feature"/>
+								<feature id="org.java-websocket.feature"/>
+								<feature id="org.jboss.javassist.feature"/>
+								<feature id="org.jboss.netty.feature"/>
+								<feature id="org.jnetpcap.feature"/>
+								<feature id="org.jpmml.feature"/>
+								<feature id="org.json.feature"/>
+								<feature id="org.mihalis.opal.feature"/>
+								<feature id="org.objenesis.feature"/>
+								<feature id="org.ocpsoft.prettytime.feature"/>
+								<feature id="org.openmuc.jdlms.feature"/>
+								<feature id="org.OpenNI.feature"/>
+								<feature id="org.osgeo.proj4j.feature"/>
+								<feature id="org.renjin.feature"/>
+								<feature id="org.restlet-osgi-2.3.12.feature"/>
+								<feature id="org.scala-lang.scala.feature"/>
+								<feature id="org.sesame.feature"/>
+								<feature id="org.simpleframework.xml.feature"/>
+								<feature id="org.xerial.snappy-java.feature"/>
+								<feature id="qdox.feature"/>
+								<feature id="rxtx.feature"/>
+								<feature id="TestNG6.8.feature"/>
+								<feature id="javax.xml.feature"/> 
+								<feature id="javax.xml.ws.feature"/> 
+								<feature id="javax.xml.soap.feature"/> 
+								<feature id="javax.xml.stream.feature"/>
+								<feature id="org.codehaus.woodstox.stax2.api.feature"/>
+								
+								<plugin id="de.uniol.inf.is.odysseus.slf4j"/>
 								<plugin id="ANTLR3_4"/>
 								<plugin id="aopalliance"/>
 								<plugin id="argparse4j"/>
@@ -124,7 +226,11 @@
 								<plugin id="qdox"/>
 								<plugin id="rxtx"/>
 								<plugin id="TestNG6.8"/>
-
+								<plugin id="javax.xml"/> 
+								<plugin id="javax.xml.ws"/> 
+								<plugin id="javax.xml.soap"/> 
+								<plugin id="javax.xml.stream"/>
+							</excludes>
 						</configuration>
 					</execution>
 				</executions>
@@ -143,7 +249,8 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
+			
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
@@ -186,7 +293,6 @@
 									<classifier>${targetfilename}</classifier>
 								</artifact>
 							</target>
-							<targetDefinitionIncludeSource>honor</targetDefinitionIncludeSource>				
 						</configuration>
 					</plugin>
 
