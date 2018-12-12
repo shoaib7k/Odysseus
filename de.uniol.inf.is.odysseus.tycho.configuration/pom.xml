@@ -15,7 +15,7 @@
 
 	<build>
 		<plugins>
-		<!--	<plugin>
+			<plugin>
 				<groupId>org.eclipse.tycho.extras</groupId>
 				<artifactId>tycho-source-feature-plugin</artifactId>
 				<version>${tycho.extras.version}</version>
@@ -27,9 +27,108 @@
 						<goals>
 							<goal>source-feature</goal>
 						</goals>
+						<configuration>
+							<excludes>
+								<!-- provide plug-ins not containing any source code -->
+								<plugin id="ANTLR3_4"/>
+								<plugin id="aopalliance"/>
+								<plugin id="argparse4j"/>
+								<plugin id="com.fasterxml.jackson"/>
+								<plugin id="com.google.code.gson"/>
+								<plugin id="com.google.guava"/>
+								<plugin id="com.google.guava20"/>
+								<plugin id="com.google.protobuf"/>
+								<plugin id="com.googlecode.javacv"/>
+								<plugin id="com.jaxb"/>
+								<plugin id="com.jayway.jsonpath"/>
+								<plugin id="com.jogamp.jogl"/>
+								<plugin id="com.mongodb.driver"/>
+								<plugin id="com.rabbitmq"/>
+								<plugin id="com.rits.cloning"/>
+								<plugin id="com.vividsolutions.jts"/>
+								<plugin id="com.yammer.metrics"/>
+								<plugin id="Commons.Math"/>
+								<plugin id="de.uniol.inf.ei.oj104"/>
+								<plugin id="de.uniol.inf.is.jfreechart"/>
+								<plugin id="org.openmuc.jdlms"/>
+								<plugin id="sigar"/>
+								<plugin id="fastutil"/>
+								<plugin id="hk2"/>
+								<plugin id="io.netty"/>
+								<plugin id="jama"/>
+								<plugin id="javaparser"/>
+								<plugin id="javax.mail"/>
+								<plugin id="javax.validation"/>
+								<plugin id="jna"/>
+								<plugin id="joptsimple"/>
+								<plugin id="lz4"/>
+								<plugin id="net.ericaro.surfaceplotter"/>
+								<plugin id="net.java.jersey"/>
+								<plugin id="org.antlr4"/>
+								<plugin id="org.apache.commons.configuration"/>
+								<plugin id="org.apache.commons.io"/>
+								<plugin id="org.apache.commons.lang"/>
+								<plugin id="org.apache.commons.lang3"/>
+								<plugin id="org.apache.commons.math3"/>
+								<plugin id="org.apache.commons.net"/>
+								<plugin id="org.apache.derby"/>
+								<plugin id="org.apache.hadoop"/>
+								<plugin id="org.apache.hc"/>
+								<plugin id="org.slf4j_0"/>
+								<plugin id="org.apache.jena.2.13"/>
+								<plugin id="org.apache.jlibs"/>
+								<plugin id="org.apache.kafka"/>
+								<plugin id="org.apache.mahout"/>
+								<plugin id="org.apache.tika.core"/>
+								<plugin id="org.apache.tika.bundle"/>
+								<plugin id="org.apache.tika.parsers"/>
+								<plugin id="org.apache.zookeeper"/>
+								<plugin id="org.bytedeco.javacv"/>
+								<plugin id="org.codehaus.woodstox.stax2-api"/>
+								<plugin id="org.eclipse.nebula"/>
+								<plugin id="org.eclipse.paho.client.mqttv3"/>
+								<plugin id="org.eclipse.pde"/>
+								<plugin id="com.google.inject"/>
+								<plugin id="org.objectweb.asm"/>
+								<plugin id="org.apache.log4j"/>
+								<plugin id="org.antlr.runtime"/>
+								<plugin id="org.eclipse.xpand"/>
+								<plugin id="org.eclipse.xtend"/>
+								<plugin id="org.eclipse.emf.mwe.core"/>
+								<plugin id="org.eclipse.xtend.typesystem.emf"/>
+								<plugin id="org.apache.commons.cli"/>
+								<plugin id="org.eclipse.emf.mwe.utils"/>
+								<plugin id="org.elasticsearch.driver"/>
+								<plugin id="org.geotools"/>
+								<plugin id="org.graphstream.gs-algo"/>						
+								<plugin id="org.graphstream.gs-core"/>
+								<plugin id="org.i0itec.zkclient"/>
+								<plugin id="org.java-websocket"/>
+								<plugin id="org.jboss.javassist"/>
+								<plugin id="org.jboss.netty"/>
+								<plugin id="org.jnetpcap"/>
+								<plugin id="org.jpmml"/>
+								<plugin id="org.json"/>
+								<plugin id="org.mihalis.opal"/>
+								<plugin id="org.objenesis"/>
+								<plugin id="org.ocpsoft.prettytime"/>
+								<plugin id="org.openmuc.jdlms"/>
+								<plugin id="org.OpenNI"/>
+								<plugin id="org.osgeo.proj4j"/>
+								<plugin id="org.renjin"/>
+								<plugin id="org.restlet-osgi-2.3.12"/>
+								<plugin id="org.scala-lang.scala"/>
+								<plugin id="org.sesame"/>
+								<plugin id="org.simpleframework.xml"/>
+								<plugin id="org.xerial.snappy-java"/>
+								<plugin id="qdox"/>
+								<plugin id="rxtx"/>
+								<plugin id="TestNG6.8"/>
+
+						</configuration>
 					</execution>
 				</executions>
-			</plugin> --> 
+			</plugin> 
 
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
