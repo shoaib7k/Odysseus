@@ -27,6 +27,7 @@
 						<goals>
 							<goal>source-feature</goal>
 						</goals>
+
 						<configuration>
 							<excludes>
 								<feature id="de.uniol.inf.is.odysseus.common.feature"/>

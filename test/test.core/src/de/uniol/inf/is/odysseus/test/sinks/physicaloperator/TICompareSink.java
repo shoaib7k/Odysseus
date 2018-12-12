@@ -67,6 +67,7 @@ public class TICompareSink<T extends IStreamObject<ITimeInterval>> extends Abstr
 			synchronized (expected) {
 				this.expected.clear();
 				this.inputdata.clear();
+				@SuppressWarnings("deprecation")
 				IStreamObjectDataHandler<T> dh = (IStreamObjectDataHandler<T>) DataHandlerRegistry.instance
 						.getDataHandler(this.dataHandler, getOutputSchema());
 				dh.setMetaAttribute(MetadataRegistry.getMetadataType(getOutputSchema().getMetaAttributeNames()));
