@@ -16,13 +16,45 @@
       [Enter License Description here.]
    </license>
 
+   <includes
+         id="de.uniol.inf.is.odysseus.keyvalue.datatype.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uniol.inf.is.odysseus.server.platform.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uniol.inf.is.odysseus.keyvalue.datahandler.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="com.jayway.jsonpath.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.slf4j_0.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uniol.inf.is.odysseus.core.server.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uniol.inf.is.odysseus.common.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="de.uniol.inf.is.odysseus.relational.feature"
+         version="0.0.0"/>
+
    <plugin
          id="de.uniol.inf.is.odysseus.test.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-		 
+
    <plugin
          id="de.uniol.inf.is.odysseus.report"
          download-size="0"
@@ -49,6 +81,13 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>		 
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.scr"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>
