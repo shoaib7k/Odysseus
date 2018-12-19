@@ -1,0 +1,5 @@
+instructions.configure=\
+	addRepository(type:0,location:http${#58}//odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/stable/origin/development/latest/);\
+	addRepository(type:1,location:http${#58}//odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/stable/origin/development/latest/);\
+	addRepository(type:0,location:http${#58}//odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/incubation/origin/development/latest/);\
+	addRepository(type:1,location:http${#58}//odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/incubation/origin/development/latest/);
