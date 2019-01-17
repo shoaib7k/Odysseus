@@ -73,7 +73,7 @@
 			<unit id="org.apache.lucene.analysis" version="3.5.0.v20120725-1805"/>
 			<unit id="org.apache.lucene.core" version="3.5.0.v20120725-1805"/>
 			<unit id="org.junit" version="4.12.0.v201504281640"/>
-			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20180730183850/repository/"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20190108164448/repository/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="ANTLR3_4.feature.feature.group" version="0.0.0"/>
