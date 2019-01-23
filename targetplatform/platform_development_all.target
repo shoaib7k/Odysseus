@@ -241,9 +241,7 @@
 			<unit id="de.uniol.inf.is.odysseus.image.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.imagejcv.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.keyperformanceindicators.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.keyvalue.datahandler.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.keyvalue.datatype.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.keyvalue.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.mining.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.modbus.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.net.data.feature.feature.group" version="0.0.0"/>
