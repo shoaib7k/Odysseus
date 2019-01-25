@@ -56,7 +56,8 @@
    <features>
       <feature id="de.uniol.inf.is.odysseus.server.platform.feature" installMode="root"/>
       <feature id="de.uniol.inf.is.odysseus.server.feature" installMode="root"/>
-      <feature id="de.uniol.inf.is.odysseus.test.core.feature" version="1.0.0.qualifier"/>
+      <feature id="de.uniol.inf.is.odysseus.test.core.feature" installMode="root"/>
+      <feature id="de.uniol.inf.is.odysseus.test.feature" installMode="root"/>
    </features>
 
    <configurations>
