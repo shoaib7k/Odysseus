@@ -132,6 +132,7 @@
 			<unit id="org.codehaus.woodstox.stax2.api.feature.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.nebula.feature.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.paho.client.mqttv3.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.rdf4j.feature.feature.group" version="0.0.0"/>
 			<unit id="org.elasticsearch.driver.feature.feature.group" version="0.0.0"/>
 			<unit id="org.geotools.feature.feature.group" version="0.0.0"/>
 			<unit id="org.graphstream.gs-algo.feature.feature.group" version="0.0.0"/>
@@ -153,6 +154,7 @@
 			<unit id="org.sesame.feature.feature.group" version="0.0.0"/>
 			<unit id="org.simpleframework.xml.feature.feature.group" version="0.0.0"/>
 			<unit id="org.slf4j_0.feature.feature.group" version="0.0.0"/>
+			<unit id="org.wso2.msf4j.feature.group" version="0.0.0"/>
 			<unit id="org.xerial.snappy.java.feature.feature.group" version="0.0.0"/>
 			<unit id="qdox.feature.feature.group" version="0.0.0"/>
 			<unit id="org.restlet.osgi.2.3.12.feature.feature.group" version="0.0.0"/>
