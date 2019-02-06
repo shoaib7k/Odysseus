@@ -218,9 +218,6 @@
 			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/stable/origin/development/latest/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="de.uniol.inf.ei.odysseus.nds.bda.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.ei.odysseus.nds.mvrec.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.ei.odysseus.nds.proxy.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.TimeIntervalLatencyDataratePredictionTimesMetadata.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.admission.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.aggregation.feature.feature.group" version="0.0.0"/>
