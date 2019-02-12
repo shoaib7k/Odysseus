@@ -57,12 +57,12 @@ public class TestRunnerApplication implements IApplication {
 	private static IReportGenerator reportGenerator;
     
 	// called by OSGi-DS
-	public static void bindReportGenerator(IReportGenerator serv) {
+	public void bindReportGenerator(IReportGenerator serv) {
 		reportGenerator = serv;
 	}
 
 	// called by OSGi-DS
-	public static void unbindReportGenerator(IReportGenerator serv) {
+	public void unbindReportGenerator(IReportGenerator serv) {
 		if (reportGenerator == serv) {
 			reportGenerator = null;
 		}
