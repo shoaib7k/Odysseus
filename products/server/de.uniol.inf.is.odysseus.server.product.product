@@ -7,7 +7,7 @@
    </configIni>
 
    <launcherArgs>
-      <programArgs>-console -clean -debug -nl en -profile OdysseusProfile -data @noDefault
+      <programArgs>-console -clean -debug -nl en -profile OdysseusProfile
       </programArgs>
       <vmArgs>-Xms1000M -Xmx1000M -XX:+UseConcMarkSweepGC  -Declipse.log.level=ERROR
       </vmArgs>
