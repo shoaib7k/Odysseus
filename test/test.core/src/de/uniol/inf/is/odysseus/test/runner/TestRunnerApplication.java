@@ -84,6 +84,9 @@ public class TestRunnerApplication implements IApplication {
         }
         else {
 
+            LOG.debug("Current System Info: ");
+        	printAdditionalInfos();
+        	
             LOG.debug("Starting component tests...");
 
             List<TestReport> reports = executeComponents(context);
@@ -93,9 +96,6 @@ public class TestRunnerApplication implements IApplication {
                 if (report.statusCode != StatusCode.OK) {
                     oneFailed = true;
                 }
-            }
-            if (oneFailed) {
-                printAdditionalInfos();
             }
             
             printReports(reports);

@@ -18,7 +18,7 @@ http://odysseus.informatik.uni-oldenburg.de/
    </configIni>
 
    <launcherArgs>
-      <programArgs>-Xms1000M -Xmx1000M -Xms1000M -Xmx1000M -Dsysredirect=true -Declipse.p2.mirrors=false -Declipse.log.level=ERROR
+      <programArgs>-Xms1000M -Xmx1000M -Xms1000M -Xmx1000M -Dsysredirect=true -Declipse.p2.mirrors=false -Declipse.log.level=ERROR -console -debug
       </programArgs>
       <programArgsLin>--launcher.GTK_version 
 2
@@ -74,6 +74,7 @@ limitations under the License.
       <feature id="de.uniol.inf.is.odysseus.client.platform.feature" installMode="root"/>
       <feature id="de.uniol.inf.is.odysseus.client.feature" installMode="root"/>
       <feature id="de.uniol.inf.is.odysseus.client.starter.feature" installMode="root"/>
+      <feature id="de.uniol.inf.is.odysseus.rest2.client.feature"/>
    </features>
 
    <configurations>
