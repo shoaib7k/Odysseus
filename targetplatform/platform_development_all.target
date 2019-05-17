@@ -1,331 +1,332 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="Odysseus Target Platform (Development All)" sequenceNumber="1600000003">
-<locations>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.e4.rcp.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.e4.rcp.source.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.ecf.core.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.ecf.core.ssl.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.ecf.filetransfer.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.ecf.filetransfer.httpclient4.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.ecf.filetransfer.ssl.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.emf.common.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.emf.ecore.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.emf.edit.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.emf.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.compendium.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.core.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.core.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.p2.core.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.p2.core.feature.source.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.p2.discovery.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.p2.extras.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.p2.extras.feature.source.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.p2.rcp.feature.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.p2.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.p2.user.ui.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.server.jetty.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.server.p2.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.equinox.serverside.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.help.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.jdt.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.pde.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.platform.ide" version="0.0.0"/>
-<unit id="org.eclipse.platform.sdk" version="0.0.0"/>
-<unit id="org.eclipse.rcp.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.rcp.sdk.id" version="0.0.0"/>
-<unit id="org.eclipse.rcp.source.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.sdk.ide" version="0.0.0"/>
-<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/201804111000/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.draw2d.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.gef.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.zest.feature.group" version="0.0.0"/>
-<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/gef/updates/legacy/releases"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.xtend.sdk.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.xtext.redist.feature.group" version="0.0.0"/>
-<unit id="org.eclipse.xtext.sdk.feature.group" version="0.0.0"/>
-<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/modeling/tmf/xtext/updates/releases/2.16.0/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="com.google.inject" version="3.0.0.v201605172100"/>
-<unit id="javax.jws" version="0.0.0"/>
-<unit id="javax.mail" version="1.4.0.v201005080615"/>
-<unit id="javax.servlet" version="3.1.0.v201410161800"/>
-<unit id="javax.xml.soap" version="0.0.0"/>
-<unit id="javax.xml.stream" version="0.0.0"/>
-<unit id="javax.xml.ws" version="0.0.0"/>
-<unit id="org.apache.commons.codec" version="1.10.0.v20180409-1845"/>
-<unit id="org.apache.commons.collections" version="3.2.2.v201511171945"/>
-<unit id="org.apache.httpcomponents.httpcore" version="4.3.3.v201411290715"/>
-<unit id="org.apache.lucene" version="3.5.0.v20120725-1805"/>
-<unit id="org.apache.lucene.analysis" version="3.5.0.v20120725-1805"/>
-<unit id="org.apache.lucene.core" version="3.5.0.v20120725-1805"/>
-<unit id="org.junit" version="4.12.0.v201504281640"/>
-<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20190108164448/repository/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="de.uniol.inf.is.odysseus.cache.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.client.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.client.platform.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.client.studio.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.common.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.complexnumber.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.core.server.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.database.cql.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.database.cql2.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.database.datasource.hive2.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.database.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.database.rcp.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.datarate.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.datarate_systemload.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.developer.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.keyvalue.datahandler.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.keyvalue.datatype.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.keyvalue.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.latency.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.memstore.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.monolithic.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.monolithic.sdp.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.monolithic.studio.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.parser.cql.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.parser.cql2.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.parser.cql2.ui.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.planmanagement.executor.webservice.client.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.planmgmt.standard.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.colors.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.soccer.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.windrose.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.rcp.evaluation.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.relational.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.rest.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.scheduling.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.script.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.security.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.fragmentation.base.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.platform.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.sigar.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.slf4j.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.studio.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.systemload.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.usermanagement.store.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.json.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.mail.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.rabbitmq.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.telegram.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.twitter.feature.feature.group" version="0.0.0"/>
-<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/stable/origin/development/latest/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="de.uniol.inf.is.odysseus.TimeIntervalLatencyDataratePredictionTimesMetadata.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.admission.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.aggregation.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.anomalydetection.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.badast.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.cache.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.cep.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.cep.studio.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.complexnumber.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.context.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.context.rcp.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.costmodel.server.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.database.spatial.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.dsp.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.dwd.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.eca.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.eca.plugin.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.eca.ui.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.graph.server.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.image.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.imagejcv.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.keyperformanceindicators.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.keyvalue.datatype.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.mining.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.modbus.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.net.data.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.net.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.net.monolithic.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.net.querydistribute.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.net.querydistribute.postprocess.calculations.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.net.server.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.net.source.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.neuralnetworks.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.nlp.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.nmea.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.opcua.server.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.parallelization.dynamic.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.parallelization.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.parallelization.rcp.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.planmigration.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.priority.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.probabilistic.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.profiling.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.prototyping.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.pubsub.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.part.map.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.recovery.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.s100.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.scai.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.scheduler.slascheduler.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.securitypunctuation.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.sensormanagement.client.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.sensormanagement.common.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.sensormanagement.server.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.sentimentanalysis.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.sentimentdetection.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.fragmentation.base.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.rdf.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.sparql.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.streamingsparql.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.streamingsparql.ui.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.server.xml.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.slascheduler.rcp.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.spatial.client.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.spatial.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.spatiotemporal.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.temporaltypes.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.text.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.textprocessing.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.trajectory.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.video.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.actisense.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.baslercamera.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.dds.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.facebook.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.ferrybox.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.fnirs.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.hdfs.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.iec60870.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.iec62056.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.kafka.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.lms1xx.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.mosaik.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.mqtt.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.navicoradar.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.ncsa_hdf.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.opcda.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.opcua.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.optriscamera.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.pcap.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.pmml.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.protobuf.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.rdf.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.rpi.gpio.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.rs232.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.snet.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.speech.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.sunspot.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.system.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.tika.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.web.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.webcrawler.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.xls.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.xovis.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wrapper.zeromq.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.wsenrich.feature.feature.group" version="0.0.0"/>
-<unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="0.0.0"/>
-<unit id="org.slf4j_0.feature.feature.group" version="0.0.0"/>
-<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/incubation/origin/development/latest/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="ANTLR3_4.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="Commons.Math.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="NMEAParser.feature.feature.group" version="1.0.1.201905171005"/>
-<unit id="TestNG6.8.feature.feature.group" version="6.8.0"/>
-<unit id="aopalliance.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="argparse4j.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="com.fasterxml.jackson.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="com.google.code.gson.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="com.google.guava.feature.feature.group" version="18.0.0.201905171005"/>
-<unit id="com.google.guava20.feature.feature.group" version="20.0.0.201905171005"/>
-<unit id="com.google.protobuf.feature.feature.group" version="2.4.1.201905171005"/>
-<unit id="com.googlecode.javacv.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="com.jaxb.feature.feature.group" version="2.3.0.201905171005"/>
-<unit id="com.jayway.jsonpath.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="com.jogamp.jogl.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="com.mongodb.driver.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="com.rabbitmq.feature.feature.group" version="5.4.1.201905171005"/>
-<unit id="com.rits.cloning.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="com.vividsolutions.jts.feature.feature.group" version="1.0.1.201905171005"/>
-<unit id="com.yammer.metrics.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="de.uniol.inf.ei.oj104.feature.feature.group" version="0.0.5.201905171005"/>
-<unit id="de.uniol.inf.is.jfreechart.feature.feature.group" version="10.17.0.201905171005"/>
-<unit id="de.uniol.inf.is.odysseus.common.resources.jdlms.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="de.uniol.inf.is.odysseus.sigar.feature.feature.group" version="1.0.1.201905171005"/>
-<unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="fastutil.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="fr.bmartel.pcapdecoder.feature.feature.group" version="1.2.0.201905171005"/>
-<unit id="hk2.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="io.netty.feature.feature.group" version="4.0.33.201905171005"/>
-<unit id="jama.feature.feature.group" version="1.0.3.201905171005"/>
-<unit id="javaparser.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="javax.mail.feature.feature.group" version="1.6.0.201905171005"/>
-<unit id="javax.validation.feature.feature.group" version="1.1.0.201905171005"/>
-<unit id="jna.feature.feature.group" version="4.0.0.201905171005"/>
-<unit id="joptsimple.feature.feature.group" version="3.2.0.201905171005"/>
-<unit id="lz4.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="net.ericaro.surfaceplotter.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="net.java.jersey.feature.feature.group" version="2.22.1.201905171005"/>
-<unit id="org.OpenNI.feature.feature.group" version="1.5.4.201905171005"/>
-<unit id="org.antlr4.feature.feature.group" version="4.4.0.201905171005"/>
-<unit id="org.apache.commons.configuration.feature.feature.group" version="1.10.1.201905171005"/>
-<unit id="org.apache.commons.io.feature.feature.group" version="2.4.0.201905171005"/>
-<unit id="org.apache.commons.lang3.feature.feature.group" version="3.1.0.201905171005"/>
-<unit id="org.apache.commons.math3.feature.feature.group" version="3.6.1.201905171005"/>
-<unit id="org.apache.commons.net.feature.feature.group" version="3.3.0.201905171005"/>
-<unit id="org.apache.derby.feature.feature.group" version="10.5.1.201905171005"/>
-<unit id="org.apache.hadoop.feature.feature.group" version="1.0.4.201905171005"/>
-<unit id="org.apache.hc.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.apache.jena.2.13.feature.feature.group" version="2.13.0.201905171005"/>
-<unit id="org.apache.jlibs.feature.feature.group" version="2.2.1.201905171005"/>
-<unit id="org.apache.kafka.feature.feature.group" version="2.11.0.201905171005"/>
-<unit id="org.apache.mahout.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.apache.tika.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.apache.zookeeper.feature.feature.group" version="3.4.6.201905171005"/>
-<unit id="org.bytedeco.javacv.feature.feature.group" version="0.8.0.201905171005"/>
-<unit id="org.codehaus.woodstox.stax2.api.feature.feature.group" version="4.0.0.201905171005"/>
-<unit id="org.eclipse.nebula.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.eclipse.paho.client.mqttv3.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.eclipse.rdf4j.feature.feature.group" version="2.4.3.201905171005"/>
-<unit id="org.elasticsearch.driver.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.geotools.feature.feature.group" version="15.1.0.201905171005"/>
-<unit id="org.graphstream.gs-algo.feature.feature.group" version="1.3.0.201905171005"/>
-<unit id="org.graphstream.gs-core.feature.feature.group" version="1.3.0.201905171005"/>
-<unit id="org.i0itec.zkclient.feature.feature.group" version="0.7.0.201905171005"/>
-<unit id="org.java.websocket.feature.feature.group" version="1.4.0.201905171005"/>
-<unit id="org.jboss.javassist.feature.feature.group" version="3.18.1.201905171005"/>
-<unit id="org.jboss.netty.feature.feature.group" version="3.6.6.201905171005"/>
-<unit id="org.jnetpcap.feature.feature.group" version="1.3.0.201905171005"/>
-<unit id="org.jpmml.feature.feature.group" version="1.0.1.201905171005"/>
-<unit id="org.json.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.mihalis.opal.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.objenesis.feature.feature.group" version="1.2.0.201905171005"/>
-<unit id="org.ocpsoft.prettytime.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.openmuc.jdlms.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.osgeo.proj4j.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.renjin.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.restlet.osgi.2.3.12.feature.feature.group" version="2.3.12.201905171005"/>
-<unit id="org.scala.lang.scala.feature.feature.group" version="2.11.7.201905171005"/>
-<unit id="org.sesame.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.simpleframework.xml.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="org.slf4j_0.feature.feature.group" version="1.7.25.201905171005"/>
-<unit id="org.wso2.msf4j.feature.feature.group" version="2.6.4.201905171005"/>
-<unit id="org.xerial.snappy.java.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="qdox.feature.feature.group" version="1.0.0.201905171005"/>
-<unit id="rxtx.feature.feature.group" version="1.0.0.201905171005"/>
-<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/resources/latest/"/>
-</location>
-</locations>
+<?pde version="3.8"?>
+<target name="Odysseus Target Platform (Development All)" sequenceNumber="1600000002">
+	<locations>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.e4.rcp.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.e4.rcp.source.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.core.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.core.ssl.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.filetransfer.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.filetransfer.httpclient4.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.filetransfer.ssl.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.common.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.ecore.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.edit.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.compendium.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.core.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.core.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.core.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.core.feature.source.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.discovery.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.extras.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.extras.feature.source.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.rcp.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.user.ui.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.server.jetty.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.server.p2.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.serverside.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.help.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.jdt.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.pde.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.platform.ide" version="0.0.0"/>
+			<unit id="org.eclipse.platform.sdk" version="0.0.0"/>
+			<unit id="org.eclipse.rcp.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.rcp.sdk.id" version="0.0.0"/>
+			<unit id="org.eclipse.rcp.source.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.sdk.ide" version="0.0.0"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/201804111000/"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="org.eclipse.draw2d.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.gef.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.zest.feature.group" version="0.0.0"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/gef/updates/legacy/releases"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="org.eclipse.xtend.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.xtext.redist.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.xtext.sdk.feature.group" version="0.0.0"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/modeling/tmf/xtext/updates/releases/2.16.0/"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="com.google.inject" version="3.0.0.v201605172100"/>
+			<unit id="javax.jws" version="0.0.0"/>
+			<unit id="javax.mail" version="1.4.0.v201005080615"/>
+			<unit id="javax.servlet" version="3.1.0.v201410161800"/>
+			<unit id="javax.xml.soap" version="0.0.0"/>
+			<unit id="javax.xml.stream" version="0.0.0"/>
+			<unit id="javax.xml.ws" version="0.0.0"/>
+			<unit id="org.apache.commons.codec" version="1.10.0.v20180409-1845"/>
+			<unit id="org.apache.commons.collections" version="3.2.2.v201511171945"/>
+			<unit id="org.apache.httpcomponents.httpcore" version="4.3.3.v201411290715"/>
+			<unit id="org.apache.lucene" version="3.5.0.v20120725-1805"/>
+			<unit id="org.apache.lucene.analysis" version="3.5.0.v20120725-1805"/>
+			<unit id="org.apache.lucene.core" version="3.5.0.v20120725-1805"/>
+			<unit id="org.junit" version="4.12.0.v201504281640"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20190108164448/repository/"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="ANTLR3_4.feature.feature.group" version="0.0.0"/>
+			<unit id="Commons.Math.feature.feature.group" version="0.0.0"/>
+			<unit id="NMEAParser.feature.feature.group" version="0.0.0"/>
+			<unit id="TestNG6.8.feature.feature.group" version="0.0.0"/>
+			<unit id="aopalliance.feature.feature.group" version="0.0.0"/>
+			<unit id="argparse4j.feature.feature.group" version="0.0.0"/>
+			<unit id="com.fasterxml.jackson.feature.feature.group" version="0.0.0"/>
+			<unit id="com.google.code.gson.feature.feature.group" version="0.0.0"/>
+			<unit id="com.google.guava.feature.feature.group" version="0.0.0"/>
+			<unit id="com.google.guava20.feature.feature.group" version="0.0.0"/>
+			<unit id="com.google.protobuf.feature.feature.group" version="0.0.0"/>
+			<unit id="com.googlecode.javacv.feature.feature.group" version="0.0.0"/>
+			<unit id="com.jaxb.feature.feature.group" version="0.0.0"/>
+			<unit id="com.jayway.jsonpath.feature.feature.group" version="0.0.0"/>
+			<unit id="com.jogamp.jogl.feature.feature.group" version="0.0.0"/>
+			<unit id="com.mongodb.driver.feature.feature.group" version="0.0.0"/>
+			<unit id="com.rabbitmq.feature.feature.group" version="0.0.0"/>
+			<unit id="com.rits.cloning.feature.feature.group" version="0.0.0"/>
+			<unit id="com.vividsolutions.jts.feature.feature.group" version="0.0.0"/>
+			<unit id="com.yammer.metrics.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.ei.oj104.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.jfreechart.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.common.resources.jdlms.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.sigar.feature.feature.group" version="0.0.0"/>
+			<unit id="fastutil.feature.feature.group" version="0.0.0"/>
+			<unit id="hk2.feature.feature.group" version="0.0.0"/>
+			<unit id="io.netty.feature.feature.group" version="0.0.0"/>
+			<unit id="jama.feature.feature.group" version="0.0.0"/>
+			<unit id="javaparser.feature.feature.group" version="0.0.0"/>
+			<unit id="javax.mail.feature.feature.group" version="0.0.0"/>
+			<unit id="javax.validation.feature.feature.group" version="0.0.0"/>
+			<unit id="jna.feature.feature.group" version="0.0.0"/>
+			<unit id="joptsimple.feature.feature.group" version="0.0.0"/>
+			<unit id="lz4.feature.feature.group" version="0.0.0"/>
+			<unit id="net.ericaro.surfaceplotter.feature.feature.group" version="0.0.0"/>
+			<unit id="net.java.jersey.feature.feature.group" version="0.0.0"/>
+			<unit id="org.OpenNI.feature.feature.group" version="0.0.0"/>
+			<unit id="org.antlr4.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.commons.configuration.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.commons.io.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.commons.lang3.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.commons.math3.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.commons.net.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.derby.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.hadoop.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.hc.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.jena.2.13.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.jlibs.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.kafka.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.mahout.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.tika.feature.feature.group" version="0.0.0"/>
+			<unit id="org.apache.zookeeper.feature.feature.group" version="0.0.0"/>
+			<unit id="org.bytedeco.javacv.feature.feature.group" version="0.0.0"/>
+			<unit id="org.codehaus.woodstox.stax2.api.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.nebula.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.paho.client.mqttv3.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.rdf4j.feature.feature.group" version="0.0.0"/>
+			<unit id="org.elasticsearch.driver.feature.feature.group" version="0.0.0"/>
+			<unit id="org.geotools.feature.feature.group" version="0.0.0"/>
+			<unit id="org.graphstream.gs-algo.feature.feature.group" version="0.0.0"/>
+			<unit id="org.graphstream.gs-core.feature.feature.group" version="0.0.0"/>
+			<unit id="org.i0itec.zkclient.feature.feature.group" version="0.0.0"/>
+			<unit id="org.java.websocket.feature.feature.group" version="0.0.0"/>
+			<unit id="org.jboss.javassist.feature.feature.group" version="0.0.0"/>
+			<unit id="org.jboss.netty.feature.feature.group" version="0.0.0"/>
+			<unit id="org.jnetpcap.feature.feature.group" version="0.0.0"/>
+			<unit id="org.jpmml.feature.feature.group" version="0.0.0"/>
+			<unit id="org.json.feature.feature.group" version="0.0.0"/>
+			<unit id="org.mihalis.opal.feature.feature.group" version="0.0.0"/>
+			<unit id="org.objenesis.feature.feature.group" version="0.0.0"/>
+			<unit id="org.ocpsoft.prettytime.feature.feature.group" version="0.0.0"/>
+			<unit id="org.openmuc.jdlms.feature.feature.group" version="0.0.0"/>
+			<unit id="org.osgeo.proj4j.feature.feature.group" version="0.0.0"/>
+			<unit id="org.renjin.feature.feature.group" version="0.0.0"/>
+			<unit id="org.scala.lang.scala.feature.feature.group" version="0.0.0"/>
+			<unit id="org.sesame.feature.feature.group" version="0.0.0"/>
+			<unit id="org.simpleframework.xml.feature.feature.group" version="0.0.0"/>
+			<unit id="org.slf4j_0.feature.feature.group" version="0.0.0"/>
+			<unit id="org.wso2.msf4j.feature.feature.group" version="0.0.0"/>
+			<unit id="org.xerial.snappy.java.feature.feature.group" version="0.0.0"/>
+			<unit id="qdox.feature.feature.group" version="0.0.0"/>
+			<unit id="org.restlet.osgi.2.3.12.feature.feature.group" version="0.0.0"/>
+			<unit id="rxtx.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="0.0.0"/>
+			<!--<unit id="de.uniol.inf.is.odysseus.xtext.ui.feature.feature.group" version="0.0.0"/>-->
+			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/resources/latest/"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="de.uniol.inf.is.odysseus.cache.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.client.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.client.platform.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.client.studio.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.common.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.complexnumber.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.core.server.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.database.cql.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.database.cql2.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.database.datasource.hive2.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.database.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.database.rcp.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.datarate.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.datarate_systemload.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.developer.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.keyvalue.datahandler.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.keyvalue.datatype.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.keyvalue.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.latency.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.memstore.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.monolithic.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.monolithic.sdp.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.monolithic.studio.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.parser.cql.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.parser.cql2.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.parser.cql2.ui.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.planmanagement.executor.webservice.client.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.planmgmt.standard.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.colors.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.soccer.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.windrose.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.rcp.evaluation.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.relational.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.rest.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.scheduling.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.script.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.security.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.fragmentation.base.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.platform.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.sigar.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.slf4j.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.studio.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.systemload.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.usermanagement.store.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.json.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.mail.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.rabbitmq.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.telegram.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.twitter.feature.feature.group" version="0.0.0"/>
+			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/stable/origin/development/latest/"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="de.uniol.inf.is.odysseus.TimeIntervalLatencyDataratePredictionTimesMetadata.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.admission.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.aggregation.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.anomalydetection.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.badast.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.cache.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.cep.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.cep.studio.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.complexnumber.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.context.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.context.rcp.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.costmodel.server.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.database.spatial.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.dsp.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.dwd.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.eca.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.eca.plugin.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.eca.ui.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.graph.server.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.image.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.imagejcv.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.keyperformanceindicators.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.keyvalue.datatype.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.mining.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.modbus.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.net.data.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.net.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.net.monolithic.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.net.querydistribute.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.net.querydistribute.postprocess.calculations.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.net.server.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.net.source.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.neuralnetworks.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.nlp.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.nmea.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.opcua.server.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.parallelization.dynamic.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.parallelization.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.parallelization.rcp.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.planmigration.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.priority.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.probabilistic.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.profiling.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.prototyping.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.pubsub.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.part.map.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.recovery.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.s100.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.scai.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.scheduler.slascheduler.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.securitypunctuation.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.sensormanagement.client.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.sensormanagement.common.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.sensormanagement.server.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.sentimentanalysis.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.sentimentdetection.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.fragmentation.base.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.rdf.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.sparql.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.streamingsparql.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.streamingsparql.ui.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.xml.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.slascheduler.rcp.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.spatial.client.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.spatial.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.spatiotemporal.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.temporaltypes.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.text.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.textprocessing.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.trajectory.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.video.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.actisense.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.baslercamera.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.dds.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.facebook.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.ferrybox.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.fnirs.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.hdfs.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.iec60870.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.iec62056.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.kafka.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.lms1xx.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.mosaik.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.mqtt.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.navicoradar.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.ncsa_hdf.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.opcda.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.opcua.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.optriscamera.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.pcap.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.pmml.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.protobuf.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.rdf.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.rpi.gpio.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.rs232.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.snet.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.speech.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.sunspot.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.system.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.tika.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.web.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.webcrawler.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.xls.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.xovis.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.zeromq.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wsenrich.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="0.0.0"/>
+			<unit id="org.slf4j_0.feature.feature.group" version="0.0.0"/>
+			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/incubation/origin/development/latest/"/>
+		</location>
+	</locations>
 </target>
