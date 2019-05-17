@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="Odysseus Target Platform (Master all)" sequenceNumber="1600000002">
+<target name="Odysseus Target Platform (Master all)" sequenceNumber="1600000004">
 	<locations>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
@@ -141,7 +141,7 @@
 			<unit id="org.java.websocket.feature.feature.group" version="0.0.0"/>
 			<unit id="org.jboss.javassist.feature.feature.group" version="0.0.0"/>
 			<unit id="org.jboss.netty.feature.feature.group" version="0.0.0"/>
-			<unit id="org.jnetpcap.feature.feature.group" version="0.0.0"/>
+			<unit id="fr.bmartel.pcapdecoder.feature.feature.group" version="0.0.0"/>
 			<unit id="org.jpmml.feature.feature.group" version="0.0.0"/>
 			<unit id="org.json.feature.feature.group" version="0.0.0"/>
 			<unit id="org.mihalis.opal.feature.feature.group" version="0.0.0"/>
