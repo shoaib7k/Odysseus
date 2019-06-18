@@ -267,7 +267,6 @@
 			<unit id="de.uniol.inf.is.odysseus.recovery.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.s100.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.scai.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.scheduler.slascheduler.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.securitypunctuation.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.sensormanagement.client.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.sensormanagement.common.feature.feature.group" version="0.0.0"/>
@@ -280,7 +279,6 @@
 			<unit id="de.uniol.inf.is.odysseus.server.streamingsparql.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.server.streamingsparql.ui.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.server.xml.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.slascheduler.rcp.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.spatial.client.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.spatial.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.spatiotemporal.feature.feature.group" version="0.0.0"/>
