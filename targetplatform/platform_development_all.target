@@ -72,7 +72,7 @@
 <unit id="org.apache.lucene.analysis" version="0.0.0"/>
 <unit id="org.apache.lucene.core" version="0.0.0"/>
 <unit id="org.junit" version="0.0.0"/>
-<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20190108164448/repository/"/>
+<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20190709113129/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="de.uniol.inf.is.odysseus.cache.feature.feature.group" version="0.0.0"/>
