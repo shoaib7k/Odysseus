@@ -20,6 +20,7 @@
 			<unit id="org.eclipse.equinox.compendium.sdk.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.equinox.core.feature.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.equinox.core.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.executable.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.equinox.p2.core.feature.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.equinox.p2.core.feature.source.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.equinox.p2.discovery.feature.feature.group" version="0.0.0"/>
