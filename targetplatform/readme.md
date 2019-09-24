@@ -9,3 +9,5 @@ In most cases you should use the master version. Only if you are developing agai
 For maven you can use 
 
 mvn clean verify -Dtargetfilename=platform_development_stable
+
+Important: Do not change these files by hand. Use generator instead.
