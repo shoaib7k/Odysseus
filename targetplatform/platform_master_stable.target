@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="Odysseus Target Platform (master stable)" sequenceNumber="1710000000">
+<target name="Odysseus Target Platform (master stable)" sequenceNumber="1710000001">
 	<locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
@@ -119,6 +119,7 @@
 			<unit id="lz4.feature.feature.group" version="0.0.0"/>
 			<unit id="net.ericaro.surfaceplotter.feature.feature.group" version="0.0.0"/>
 			<unit id="net.java.jersey.feature.feature.group" version="0.0.0"/>
+			<unit id="nz.ac.waikato.weka.feature.feature.group" version="0.0.0"/>
 			<unit id="org.OpenNI.feature.feature.group" version="0.0.0"/>
 			<unit id="org.antlr4.feature.feature.group" version="0.0.0"/>
 			<unit id="org.apache.commons.compress.feature.feature.group" version="0.0.0"/>
