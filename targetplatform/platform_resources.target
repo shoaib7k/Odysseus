@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<target name="Odysseus Target Platform (Resources)" sequenceNumber="1710000001">
+	<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.e4.rcp.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.e4.rcp.source.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.core.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.core.ssl.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.filetransfer.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.filetransfer.httpclient45.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.ecf.filetransfer.ssl.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.common.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.ecore.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.edit.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.mwe2.language.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.emf.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.compendium.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.core.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.core.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.executable.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.core.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.core.feature.source.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.discovery.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.extras.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.extras.feature.source.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.rcp.feature.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.p2.user.ui.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.server.jetty.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.server.p2.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.serverside.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.equinox.util" version="0.0.0"/>
+			<unit id="org.eclipse.help.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.jdt.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.pde.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.platform.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.platform.ide" version="0.0.0"/>
+			<unit id="org.eclipse.platform.sdk" version="0.0.0"/>
+			<unit id="org.eclipse.rcp.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.rcp.sdk.id" version="0.0.0"/>
+			<unit id="org.eclipse.rcp.source.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.sdk.ide" version="0.0.0"/>
+			<unit id="org.eclipse.xtend.sdk.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.xtext.redist.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.xtext.sdk.feature.group" version="0.0.0"/>
+			<unit id="com.google.guava" version="0.0.0"/>
+			<unit id="org.apache.xmlgraphics" version="0.0.0"/>
+			<unit id="org.apache.commons.io" version="0.0.0"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/2019-09/201909181000/"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="org.eclipse.draw2d.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.gef.feature.group" version="0.0.0"/>
+			<unit id="org.eclipse.zest.feature.group" version="0.0.0"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/gef/updates/legacy/releases"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="com.google.inject" version="0.0.0"/>
+			<unit id="com.sun.jersey" version="0.0.0"/>
+			<unit id="com.sun.xml.bind" version="0.0.0"/>
+			<unit id="javax.activation" version="0.0.0"/>
+			<unit id="javax.annotation" version="0.0.0"/>
+			<unit id="javax.jws" version="0.0.0"/>
+			<unit id="javax.mail" version="0.0.0"/>
+			<unit id="javax.servlet" version="0.0.0"/>
+			<unit id="javax.xml.soap" version="0.0.0"/>
+			<unit id="javax.xml.stream" version="0.0.0"/>
+			<unit id="javax.xml.ws" version="0.0.0"/>
+			<unit id="org.apache.commons.codec" version="0.0.0"/>
+			<unit id="org.apache.commons.collections" version="0.0.0"/>
+			<unit id="org.apache.commons.compress" version="0.0.0"/>
+			<unit id="org.apache.httpcomponents.httpcore" version="0.0.0"/>
+			<unit id="org.apache.lucene" version="0.0.0"/>
+			<unit id="org.apache.lucene.analysis" version="0.0.0"/>
+			<unit id="org.apache.lucene.core" version="0.0.0"/>
+			<unit id="org.junit" version="0.0.0"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20190827152740/repository/"/>
+		</location>
+	</locations>
+</target>

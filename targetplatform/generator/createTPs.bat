@@ -2,6 +2,10 @@ REM Simple windows script to create the required target platforms
 
 mkdir generated
 
+del generated\platform_resources.target
+type base\tp_header.xml base\core_locations.xml base\tp_footer.xml > tmp.target
+powershell -Command "(gc tmp.target) -replace '__TITLE__', '(Resources)' | Out-File -encoding ASCII generated\platform_resources.target"
+
 del generated\platform_core.target
 type base\tp_header.xml base\core_locations.xml base\ody_resources_location.xml base\tp_footer.xml > tmp.target
 powershell -Command "(gc tmp.target) -replace '__TITLE__', '(Core)' | Out-File -encoding ASCII generated\platform_core.target"
