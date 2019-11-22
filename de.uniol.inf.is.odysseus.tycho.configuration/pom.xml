@@ -216,12 +216,14 @@
 						<!-- from drop-in site -->
 						<plugin id="org.eclipse.pde"/>
 						<plugin id="com.google.inject"/>
+						<plugin id="com.google.guava"/>
 						<plugin id="com.sun.jersey"/>
 						<plugin id="com.sun.xml.bind"/>
 						<plugin id="javax.activation"/>
 						<plugin id="javax.annotation"/>
 						<plugin id="javax.jws"/>
 						<plugin id="javax.xml"/>
+						<plugin id="javax.xml.bind"/>
 						<plugin id="javax.mail"/>
 						<plugin id="javax.servlet"/>
 						<plugin id="javax.xml.soap"/>
