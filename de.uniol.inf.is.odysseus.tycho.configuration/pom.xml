@@ -244,6 +244,11 @@
 						<feature id="org.eclipse.gef"/>
 						<feature id="org.eclipse.draw2d"/> 
 						<feature id="org.eclipse.zest"/>
+						
+						<!-- needs further investigations -->
+						<feature id="ode.uniol.inf.is.odysseus.xtext.feature"/>
+						<feature id="org.restlet.osgi.2.3.12.feature"/>
+						<feature id="de.uniol.inf.is.odysseus.wrapper.actisense"/>
 					</excludes>
 				</configuration>
 			</plugin>
