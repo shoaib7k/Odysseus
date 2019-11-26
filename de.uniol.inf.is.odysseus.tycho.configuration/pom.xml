@@ -72,6 +72,7 @@
 						<plugin id="NMEAParser"/>
 						<plugin id="nz.ac.waikato.cms.weka"/>
 						<plugin id="com.jogamp.jogl"/>
+						<plugin id="oshi"/>
 						<plugin id="org.antlr4"/>
 						<plugin id="org.apache.commons.compress"/>
 						<plugin id="org.apache.commons.configuration"/>
