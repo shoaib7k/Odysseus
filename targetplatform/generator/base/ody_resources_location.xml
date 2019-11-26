@@ -37,6 +37,7 @@
 			<unit id="net.ericaro.surfaceplotter.feature.feature.group" version="0.0.0"/>
 			<unit id="net.java.jersey.feature.feature.group" version="0.0.0"/>
 			<unit id="nz.ac.waikato.weka.feature.feature.group" version="0.0.0"/>
+			<unit id="oshi.feature.feature.group" version ="0.0.0"/>
 			<unit id="org.OpenNI.feature.feature.group" version="0.0.0"/>
 			<unit id="org.antlr4.feature.feature.group" version="0.0.0"/>
 			<unit id="org.apache.commons.compress.feature.feature.group" version="0.0.0"/>
