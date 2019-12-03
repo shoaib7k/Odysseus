@@ -60,6 +60,7 @@
 						<plugin id="fastutil"/>
 						<plugin id="fr.bmartel.pcapdecoder"/>
 						<plugin id="hk2"/>
+						<plugin id="io.github.classgraph"/>
 						<plugin id="io.netty"/>
 						<plugin id="jama"/>
 						<plugin id="javaparser"/>
