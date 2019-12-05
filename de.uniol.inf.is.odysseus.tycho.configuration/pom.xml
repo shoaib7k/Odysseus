@@ -32,7 +32,7 @@
 				<configuration>
 					<excludes>
 						<!-- provide plug-ins not containing any source code -->
-						
+
 						<!-- from Odysseus update site -->
 						<plugin id="ANTLR3_4"/>
 						<plugin id="aopalliance"/>
@@ -124,7 +124,7 @@
 						<plugin id="rxtx"/>
 						<plugin id="sigar"/>
 						<plugin id="TestNG6.8"/>
-						
+
 						<feature id="ANTLR3_4.feature"/>
 						<feature id="aopalliance.feature"/>
 						<feature id="argparse4j.feature"/>
@@ -214,7 +214,7 @@
 						<feature id="TestNG6.8.feature"/>
 						<feature id="de.uniol.inf.is.odysseus.wrapper.websocket.feature"/>
 						<feature id="de.uniol.inf.is.odysseus.planmanagement.executor.rest.client.feature"/>
-						
+
 
 						<!-- from drop-in site -->
 						<plugin id="org.eclipse.pde"/>
@@ -240,14 +240,14 @@
 						<plugin id="org.apache.lucene.analysis"/>
 						<plugin id="org.apache.lucene.core"/>
 						<plugin id="org.junit"/>
-						
+
 						<!-- others -->
 						<plugin id="org.sat4j.core"/>
 						<plugin id="org.sat4j.pb"/>
 						<feature id="org.eclipse.gef"/>
 						<feature id="org.eclipse.draw2d"/> 
 						<feature id="org.eclipse.zest"/>
-						
+
 						<!-- needs further investigations -->
 						<feature id="de.uniol.inf.is.odysseus.xtext.feature"/>
 						<feature id="org.restlet.osgi.2.3.12.feature"/>
@@ -267,7 +267,15 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>			
+			</plugin>		
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-compiler-plugin</artifactId>
+				<version>${tycho.version}</version>
+				<configuration>
+					<useProjectSettings>false</useProjectSettings>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
