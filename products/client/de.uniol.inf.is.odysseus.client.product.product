@@ -29,7 +29,7 @@ http://odysseus.informatik.uni-oldenburg.de/
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/de.uniol.inf.is.odysseus.client.starter/icons/16_16.gif" i32="/de.uniol.inf.is.odysseus.client.starter/icons/32_32.gif" i48="/de.uniol.inf.is.odysseus.client.starter/icons/48_48.gif" i64="/de.uniol.inf.is.odysseus.client.starter/icons/64_64.gif" i128="/de.uniol.inf.is.odysseus.client.starter/icons/128_128.gif"/>
+   <windowImages i16="/de.uniol.inf.is.odysseus.client.product/icons/16_16.gif" i32="/de.uniol.inf.is.odysseus.client.starter/icons/32_32.gif" i48="/de.uniol.inf.is.odysseus.client.starter/icons/48_48.gif" i64="/de.uniol.inf.is.odysseus.client.starter/icons/64_64.gif" i128="/de.uniol.inf.is.odysseus.client.starter/icons/128_128.gif"/>
 
    <splash
       location="de.uniol.inf.is.odysseus.client.starter" />
@@ -40,6 +40,7 @@ http://odysseus.informatik.uni-oldenburg.de/
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
       <linux include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</linux>
@@ -86,5 +87,12 @@ limitations under the License.
       <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="4" />
       <property name="org.eclipse.update.reconcile" value="false" />
    </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
 
 </product>
