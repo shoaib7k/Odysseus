@@ -4,7 +4,7 @@
 <product name="Odysseus Studio 2" uid="de.uniol.inf.is.odysseus.studio.product.clientonly" id="de.uniol.inf.is.odysseus.client.starter.OdysseusStudioProduct" application="de.uniol.inf.is.odysseus.client.starter.OdysseusStudioApplication" version="1.0.0" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
-      <image path="/de.uniol.inf.is.odysseus.client.starter/icons/128_128.gif"/>
+      <image path="/client.product/icons/128_128.gif"/>
       <text>
          This is Odysseus Studio
 
@@ -29,14 +29,14 @@ http://odysseus.informatik.uni-oldenburg.de/
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/de.uniol.inf.is.odysseus.client.product/icons/16_16.gif" i32="/de.uniol.inf.is.odysseus.client.starter/icons/32_32.gif" i48="/de.uniol.inf.is.odysseus.client.starter/icons/48_48.gif" i64="/de.uniol.inf.is.odysseus.client.starter/icons/64_64.gif" i128="/de.uniol.inf.is.odysseus.client.starter/icons/128_128.gif"/>
+   <windowImages i16="/client.product/icons/16_16.gif" i32="/client.product/icons/32_32.gif" i48="/client.product/icons/48_48.gif" i64="/client.product/icons/64_64.gif" i128="/client.product/icons/128_128.gif"/>
 
    <splash
       location="de.uniol.inf.is.odysseus.client.starter" />
    <launcher name="studio">
-      <macosx icon="/de.uniol.inf.is.odysseus.client.starter/icons/Odysseus-icons-mac.icns"/>
+      <macosx icon="/client.product/icons/Odysseus-icons-mac.icns"/>
       <win useIco="true">
-         <ico path="/de.uniol.inf.is.odysseus.client.starter/icons/Odysseus-icons-win.ico"/>
+         <ico path="/client.product/icons/Odysseus-icons-win.ico"/>
          <bmp/>
       </win>
    </launcher>
