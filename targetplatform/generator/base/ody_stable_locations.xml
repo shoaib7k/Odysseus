@@ -16,6 +16,7 @@
 			<unit id="de.uniol.inf.is.odysseus.developer.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.keyvalue.datahandler.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.keyvalue.datatype.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.keyvalue.datatype.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.keyvalue.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.latency.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.memstore.feature.feature.group" version="0.0.0"/>
