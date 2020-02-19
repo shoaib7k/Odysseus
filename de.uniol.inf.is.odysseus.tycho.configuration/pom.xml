@@ -36,6 +36,7 @@
 						<!-- from Odysseus update site -->
 						<plugin id="ANTLR3_4"/>
 						<plugin id="aopalliance"/>
+						<plugin id="apache.opennlp"/>
 						<plugin id="argparse4j"/>
 						<plugin id="com.fasterxml.jackson"/>
 						<plugin id="com.google.code.gson"/>
@@ -127,6 +128,7 @@
 
 						<feature id="ANTLR3_4.feature"/>
 						<feature id="aopalliance.feature"/>
+						<feature id="apache.opennlp.feature"/>
 						<feature id="argparse4j.feature"/>
 						<feature id="com.fasterxml.jackson.feature"/>
 						<feature id="com.google.code.gson.feature"/>
