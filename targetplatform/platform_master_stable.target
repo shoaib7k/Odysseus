@@ -83,6 +83,7 @@
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="ANTLR3_4.feature.feature.group" version="0.0.0"/>
+			<unit id="apache.opennlp.feature.feature.group" version="0.0.0"/>
 			<unit id="Commons.Math.feature.feature.group" version="0.0.0"/>
 			<unit id="NMEAParser.feature.feature.group" version="0.0.0"/>
 			<unit id="TestNG6.8.feature.feature.group" version="0.0.0"/>
