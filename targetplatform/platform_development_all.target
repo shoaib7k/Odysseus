@@ -308,6 +308,8 @@
 			<unit id="de.uniol.inf.is.odysseus.eca.plugin.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.eca.ui.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.eca.ui.feature.source.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.elki.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.elki.feature.source.feature.group" version="0.0.0"/>			
 			<unit id="de.uniol.inf.is.odysseus.graph.server.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.graph.server.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.eca.plugin.feature.feature.group" version="0.0.0"/>
