@@ -3,8 +3,6 @@
 			<unit id="de.uniol.inf.is.odysseus.TimeIntervalLatencyDataratePredictionTimesMetadata.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.admission.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.admission.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.aggregation.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.aggregation.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.anomalydetection.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.anomalydetection.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.badast.feature.feature.group" version="0.0.0"/>

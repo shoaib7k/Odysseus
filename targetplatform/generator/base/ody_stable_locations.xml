@@ -1,5 +1,7 @@
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="de.uniol.inf.is.odysseus.cache.feature.feature.group" version="0.0.0"/>
+      <unit id="de.uniol.inf.is.odysseus.aggregation.feature.feature.group" version="0.0.0"/>
+      <unit id="de.uniol.inf.is.odysseus.aggregation.feature.source.feature.group" version="0.0.0"/>
+      <unit id="de.uniol.inf.is.odysseus.cache.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.cache.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.client.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.client.feature.source.feature.group" version="0.0.0"/>

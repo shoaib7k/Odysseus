@@ -79,7 +79,7 @@
 			<unit id="org.apache.lucene.analysis" version="0.0.0"/>
 			<unit id="org.apache.lucene.core" version="0.0.0"/>
 			<unit id="org.junit" version="0.0.0"/>
-			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20191126223242/repository/"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20200219023850/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="ANTLR3_4.feature.feature.group" version="0.0.0"/>
@@ -171,7 +171,9 @@
 			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/resources/latest/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="de.uniol.inf.is.odysseus.cache.feature.feature.group" version="0.0.0"/>
+      <unit id="de.uniol.inf.is.odysseus.aggregation.feature.feature.group" version="0.0.0"/>
+      <unit id="de.uniol.inf.is.odysseus.aggregation.feature.source.feature.group" version="0.0.0"/>
+      <unit id="de.uniol.inf.is.odysseus.cache.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.cache.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.client.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.client.feature.source.feature.group" version="0.0.0"/>
