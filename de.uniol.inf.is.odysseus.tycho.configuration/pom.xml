@@ -58,6 +58,7 @@
 						<plugin id="de.uniol.inf.is.odysseus.sigar"/>
 						<plugin id="de.uniol.inf.is.odysseus.slf4j"/>
 						<plugin id="de.uniol.inf.is.odysseus.xtext.feature"/>
+						<plugin id="de.lmu.ifi.dbs.elki"/>
 						<plugin id="fastutil"/>
 						<plugin id="fr.bmartel.pcapdecoder"/>
 						<plugin id="hk2"/>
@@ -216,6 +217,7 @@
 						<feature id="TestNG6.8.feature"/>
 						<feature id="de.uniol.inf.is.odysseus.wrapper.websocket.feature"/>
 						<feature id="de.uniol.inf.is.odysseus.planmanagement.executor.rest.client.feature"/>
+						<feature id="de.lmu.ifi.dbs.elki.feature"/>
 
 
 						<!-- from drop-in site -->
