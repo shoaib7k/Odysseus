@@ -75,5 +75,5 @@
 			<unit id="org.apache.lucene.analysis" version="0.0.0"/>
 			<unit id="org.apache.lucene.core" version="0.0.0"/>
 			<unit id="org.junit" version="0.0.0"/>
-			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20191126223242/repository/"/>
+			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20200219023850/"/>
 		</location>
