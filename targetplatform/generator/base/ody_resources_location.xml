@@ -85,5 +85,5 @@
 			<unit id="org.xerial.snappy.java.feature.feature.group" version="0.0.0"/>
 			<unit id="qdox.feature.feature.group" version="0.0.0"/>
 			<unit id="rxtx.feature.feature.group" version="0.0.0"/>
-			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/resources/latest/"/>
+			<repository location="https://odysseus.informatik.uni-oldenburg.de/updatesite/resources/latest/"/>
 		</location>

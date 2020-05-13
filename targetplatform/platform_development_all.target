@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="Odysseus Target Platform (development all)" sequenceNumber="1710000002">
+<target name="Odysseus Target Platform (development all)" sequenceNumber="1710000010">
 	<locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
@@ -51,13 +51,13 @@
 			<unit id="com.google.guava" version="0.0.0"/>
 			<unit id="org.apache.xmlgraphics" version="0.0.0"/>
 			<unit id="org.apache.commons.io" version="0.0.0"/>
-			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/2019-09/201909181000/"/>
+			<repository location="https://ftp.fau.de/eclipse/releases/2019-09/201909181000/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.draw2d.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.gef.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.zest.feature.group" version="0.0.0"/>
-			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/gef/updates/legacy/releases"/>
+			<repository location="https://ftp.fau.de/eclipse/tools/gef/updates/legacy/releases"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="com.google.inject" version="0.0.0"/>
@@ -79,7 +79,7 @@
 			<unit id="org.apache.lucene.analysis" version="0.0.0"/>
 			<unit id="org.apache.lucene.core" version="0.0.0"/>
 			<unit id="org.junit" version="0.0.0"/>
-			<repository location="http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/tools/orbit/downloads/drops/S20200224183213/repository/"/>
+			<repository location="https://ftp.fau.de/eclipse/tools/orbit/downloads/drops/S20200224183213/repository/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="ANTLR3_4.feature.feature.group" version="0.0.0"/>
@@ -168,7 +168,7 @@
 			<unit id="org.xerial.snappy.java.feature.feature.group" version="0.0.0"/>
 			<unit id="qdox.feature.feature.group" version="0.0.0"/>
 			<unit id="rxtx.feature.feature.group" version="0.0.0"/>
-			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/resources/latest/"/>
+			<repository location="https://odysseus.informatik.uni-oldenburg.de/updatesite/resources/latest/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
       <unit id="de.uniol.inf.is.odysseus.aggregation.feature.feature.group" version="0.0.0"/>
@@ -271,7 +271,7 @@
 			<unit id="de.uniol.inf.is.odysseus.wrapper.telegram.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.twitter.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.twitter.feature.source.feature.group" version="0.0.0"/>
-			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/stable/origin/development/latest/"/>
+			<repository location="https://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/stable/origin/development/latest/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="de.uniol.inf.is.odysseus.TimeIntervalLatencyDataratePredictionTimesMetadata.feature.feature.group" version="0.0.0"/>
@@ -480,7 +480,7 @@
 			<unit id="de.uniol.inf.is.odysseus.wsenrich.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wsenrich.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="0.0.0"/>
-			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/incubation/origin/development/latest/"/>
+			<repository location="https://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/incubation/origin/development/latest/"/>
 		</location>
 	</locations>
 </target>

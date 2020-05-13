@@ -99,5 +99,5 @@
 			<unit id="de.uniol.inf.is.odysseus.wrapper.telegram.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.twitter.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.twitter.feature.source.feature.group" version="0.0.0"/>
-			<repository location="http://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/stable/origin/__BRANCH__/latest/"/>
+			<repository location="https://odysseus.informatik.uni-oldenburg.de/updatesite/odysseus_all_new/stable/origin/__BRANCH__/latest/"/>
 		</location>
