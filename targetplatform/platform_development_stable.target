@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="Odysseus Target Platform (development stable)" sequenceNumber="1710000010">
+<target name="Odysseus Target Platform (development stable)" sequenceNumber="1720000000">
 	<locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
@@ -33,7 +33,6 @@
 			<unit id="org.eclipse.equinox.server.jetty.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.equinox.server.p2.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.equinox.serverside.sdk.feature.group" version="0.0.0"/>
-			<unit id="org.eclipse.equinox.util" version="0.0.0"/>
 			<unit id="org.eclipse.help.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.jdt.feature.group" version="0.0.0"/>
 			<unit id="org.eclipse.pde.feature.group" version="0.0.0"/>
@@ -51,7 +50,7 @@
 			<unit id="com.google.guava" version="0.0.0"/>
 			<unit id="org.apache.xmlgraphics" version="0.0.0"/>
 			<unit id="org.apache.commons.io" version="0.0.0"/>
-			<repository location="https://ftp.fau.de/eclipse/releases/2019-09/201909181000/"/>
+			<repository location="https://ftp.fau.de/eclipse/releases/2020-06/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.draw2d.feature.group" version="0.0.0"/>
