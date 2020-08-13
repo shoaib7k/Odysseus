@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="Odysseus Target Platform (development all)" sequenceNumber="1720000000">
+<target name="Odysseus Target Platform (development all)" sequenceNumber="1720000001">
 	<locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
@@ -78,7 +78,7 @@
 			<unit id="org.apache.lucene.analysis" version="0.0.0"/>
 			<unit id="org.apache.lucene.core" version="0.0.0"/>
 			<unit id="org.junit" version="0.0.0"/>
-			<repository location="https://ftp.fau.de/eclipse/tools/orbit/downloads/drops2/S20200526004052/repository/"/>
+			<repository location="https://ftp.fau.de/eclipse/tools/orbit/downloads/drops/S20200727174946/repository/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="ANTLR3_4.feature.feature.group" version="0.0.0"/>
