@@ -74,5 +74,5 @@
 			<unit id="org.apache.lucene.analysis" version="0.0.0"/>
 			<unit id="org.apache.lucene.core" version="0.0.0"/>
 			<unit id="org.junit" version="0.0.0"/>
-			<repository location="https://ftp.fau.de/eclipse/tools/orbit/downloads/drops/S20200224183213/repository/"/>
+			<repository location="https://ftp.fau.de/eclipse/tools/orbit/downloads/drops2/S20200727174946/repository/"/>
 		</location>
