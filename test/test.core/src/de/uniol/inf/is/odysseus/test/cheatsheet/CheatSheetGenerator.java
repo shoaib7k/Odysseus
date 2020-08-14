@@ -361,7 +361,6 @@ public class CheatSheetGenerator {
         CheatSheetGenerator.buildTransportHandlers(builder);
     }
 
-    @SuppressWarnings("deprecation")
 	private static void buildDataHandlers(final StringBuilder builder) {
         builder.append("\\subsection{Data Handlers}\n");
         final List<String> datas = new ArrayList<>(DataHandlerRegistry.instance.getHandlerNames());
