@@ -13,6 +13,7 @@
 	</parent>
 
 	<modules>
+	    <module>de.uniol.inf.is.odysseus.slf4j</module>
 		<module>targetplatform</module>	
 		<module>starter</module>
 	</modules>
