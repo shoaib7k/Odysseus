@@ -20,7 +20,6 @@ Require-Bundle: com.google.guava,
  de.uniol.inf.is.odysseus.rcp.config,
  org.eclipse.osgi.services,
  org.eclipse.equinox.event
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Automatic-Module-Name: de.uniol.inf.is.odysseus.client.starter
 Import-Package: org.eclipse.ui.console
