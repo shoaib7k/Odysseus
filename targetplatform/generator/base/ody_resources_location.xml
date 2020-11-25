@@ -9,6 +9,7 @@
 			<unit id="com.fasterxml.jackson.feature.feature.group" version="0.0.0"/>
 			<unit id="com.google.code.gson.feature.feature.group" version="0.0.0"/>
 			<unit id="com.google.guava20.feature.feature.group" version="0.0.0"/>
+			<unit id="com.google.guava.feature.feature.group" version="0.0.0"/>
 			<unit id="com.google.protobuf.feature.feature.group" version="0.0.0"/>
 			<unit id="com.googlecode.javacv.feature.feature.group" version="0.0.0"/>
 			<unit id="com.jaxb.feature.feature.group" version="0.0.0"/>
