@@ -42,8 +42,6 @@
 			<unit id="de.uniol.inf.is.odysseus.memstore.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.monolithic.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.monolithic.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.monolithic.sdp.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.monolithic.sdp.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.monolithic.studio.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.monolithic.studio.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.parser.cql.feature.feature.group" version="0.0.0"/>
