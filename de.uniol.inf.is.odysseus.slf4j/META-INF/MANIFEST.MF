@@ -78,6 +78,5 @@ Export-Package: de.uniol.inf.is.odysseus.slf4j,
  org.slf4j.helpers,
  org.slf4j.impl,
  org.slf4j.spi
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: de.uniol.inf.is.odysseus.slf4j
 Bundle-ActivationPolicy: lazy
