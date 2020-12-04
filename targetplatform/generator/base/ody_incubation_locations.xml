@@ -85,8 +85,6 @@
 			<unit id="de.uniol.inf.is.odysseus.pubsub.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.part.map.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.part.map.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.recovery.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.recovery.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.s100.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.s100.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.scai.feature.feature.group" version="0.0.0"/>
