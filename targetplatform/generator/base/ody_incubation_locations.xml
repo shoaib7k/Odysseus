@@ -5,8 +5,6 @@
 			<unit id="de.uniol.inf.is.odysseus.admission.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.anomalydetection.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.anomalydetection.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.badast.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.badast.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.cache.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.cache.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.cep.feature.feature.group" version="0.0.0"/>
