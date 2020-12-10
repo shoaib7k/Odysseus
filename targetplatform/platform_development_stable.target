@@ -77,7 +77,7 @@
 			<unit id="org.apache.lucene.analysis" version="0.0.0"/>
 			<unit id="org.apache.lucene.core" version="0.0.0"/>
 			<unit id="org.junit" version="0.0.0"/>
-			<repository location="https://ftp.fau.de/eclipse/tools/orbit/downloads/drops/S20200727174946/repository/"/>
+			<repository location="https://ftp.fau.de/eclipse/tools/orbit/downloads/drops/S20201124213957"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="ANTLR3_4.feature.feature.group" version="0.0.0"/>
