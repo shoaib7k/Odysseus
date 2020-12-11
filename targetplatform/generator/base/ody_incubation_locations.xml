@@ -91,12 +91,6 @@
 			<unit id="de.uniol.inf.is.odysseus.scai.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.securitypunctuation.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.securitypunctuation.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.sensormanagement.client.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.sensormanagement.client.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.sensormanagement.common.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.sensormanagement.common.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.sensormanagement.server.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.sensormanagement.server.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.sentimentanalysis.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.sentimentanalysis.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.sentimentdetection.feature.feature.group" version="0.0.0"/>
