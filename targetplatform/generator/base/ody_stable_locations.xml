@@ -50,8 +50,6 @@
 			<unit id="de.uniol.inf.is.odysseus.parser.cql2.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.parser.cql2.ui.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.parser.cql2.ui.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.planmanagement.executor.webservice.client.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.planmanagement.executor.webservice.client.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.planmgmt.standard.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.planmgmt.standard.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.colors.feature.feature.group" version="0.0.0"/>
