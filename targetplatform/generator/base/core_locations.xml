@@ -54,10 +54,10 @@
 			<repository location="https://ftp.fau.de/eclipse/tools/gef/updates/legacy/releases"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="com.google.inject" version="0.0.0"/>
+			<!--<unit id="com.google.inject" version="0.0.0"/>-->
 			<unit id="com.sun.jersey" version="0.0.0"/>
 			<unit id="com.sun.xml.bind" version="0.0.0"/>
-			<unit id="javax.activation" version="1.2.2.v20201119"/>
+			<unit id="javax.activation" version="1.1.0.v201211130549"/>
 			<unit id="javax.annotation" version="0.0.0"/>
 			<unit id="javax.jws" version="0.0.0"/>
 			<unit id="javax.mail" version="0.0.0"/>
@@ -73,5 +73,5 @@
 			<unit id="org.apache.lucene.analysis" version="0.0.0"/>
 			<unit id="org.apache.lucene.core" version="0.0.0"/>
 			<unit id="org.junit" version="0.0.0"/>
-			<repository location="https://ftp.fau.de/eclipse/tools/orbit/downloads/drops2/S20201124213957/repository/"/>
+			<repository location="https://ftp.fau.de/eclipse/tools/orbit/downloads/drops/S20201124213957/repository/"/>
 		</location>
