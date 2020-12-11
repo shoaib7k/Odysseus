@@ -56,7 +56,6 @@
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="com.google.inject" version="0.0.0"/>
 			<unit id="com.sun.jersey" version="0.0.0"/>
-			<unit id="com.sun.xml.bind" version="0.0.0"/>
 			<unit id="javax.activation" version="1.1.0.v201211130549"/>
 			<unit id="javax.annotation" version="0.0.0"/>
 			<unit id="javax.jws" version="0.0.0"/>
