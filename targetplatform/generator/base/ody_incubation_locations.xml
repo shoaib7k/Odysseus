@@ -120,8 +120,6 @@
 			<unit id="de.uniol.inf.is.odysseus.textprocessing.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.trajectory.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.trajectory.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.video.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.video.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.actisense.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.actisense.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.baslercamera.feature.feature.group" version="0.0.0"/>
