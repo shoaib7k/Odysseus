@@ -24,7 +24,6 @@ import org.eclipse.ui.application.IWorkbenchWindowConfigurer;
 import org.eclipse.ui.application.WorkbenchAdvisor;
 import org.eclipse.ui.application.WorkbenchWindowAdvisor;
 import org.eclipse.ui.ide.IDE;
-import org.eclipse.ui.internal.ide.IDEWorkbenchPlugin;
 import org.osgi.framework.Bundle;
 
 
@@ -50,7 +49,7 @@ public class ApplicationWorkbenchAdvisor extends WorkbenchAdvisor {
 		// inserted: register images for rendering explorer view
 	    final String ICONS_PATH = "icons/full/";
 	    final String PATH_OBJECT = ICONS_PATH + "obj16/";
-	    Bundle ideBundle = Platform.getBundle(IDEWorkbenchPlugin.IDE_WORKBENCH);
+	    Bundle ideBundle = Platform.getBundle("org.eclipse.ui.ide");
 	    declareWorkbenchImage(configurer, ideBundle,
 	        IDE.SharedImages.IMG_OBJ_PROJECT, PATH_OBJECT + "prj_obj.gif", true);
 	    declareWorkbenchImage(configurer, ideBundle,
