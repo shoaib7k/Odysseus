@@ -15,7 +15,6 @@
  */
 package de.uniol.inf.is.odysseus.product.studio.starter;
 
-import org.eclipse.ui.IWorkbenchPreferenceConstants;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.application.ActionBarAdvisor;
 import org.eclipse.ui.application.IActionBarConfigurer;
@@ -43,7 +42,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
 		configurer.setShowProgressIndicator(true);
 		configurer.setShowPerspectiveBar(true);
 		org.eclipse.ui.ide.IDE.registerAdapters();
-		PlatformUI.getPreferenceStore().setValue(IWorkbenchPreferenceConstants.SHOW_TRADITIONAL_STYLE_TABS, false);		 
+		PlatformUI.getPreferenceStore().setValue("SHOW_TRADITIONAL_STYLE_TABS", false);		 
 	}
 	
 	@Override
