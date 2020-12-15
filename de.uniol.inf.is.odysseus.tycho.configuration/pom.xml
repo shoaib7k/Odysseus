@@ -64,6 +64,8 @@
 						<plugin id="hk2"/>
 						<plugin id="io.github.classgraph"/>
 						<plugin id="io.netty"/>
+						<plugin id="jakarta.xml.bind"/>
+						<plugin id="jakarta.activation"/>
 						<plugin id="jama"/>
 						<plugin id="javaparser"/>
 						<plugin id="javax.mail"/>
