@@ -33,10 +33,6 @@
          version="0.0.0"/>
 
    <includes
-         id="org.slf4j_0.feature"
-         version="0.0.0"/>
-
-   <includes
          id="de.uniol.inf.is.odysseus.core.server.feature"
          version="0.0.0"/>
 
