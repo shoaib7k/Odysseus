@@ -138,6 +138,8 @@
 			<unit id="de.uniol.inf.is.odysseus.wrapper.iec60870.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.iec62056.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.iec62056.feature.source.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.influxdb.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.wrapper.influxdb.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.kafka.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.kafka.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.lms1xx.feature.feature.group" version="0.0.0"/>
