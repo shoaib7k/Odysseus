@@ -336,8 +336,6 @@
 			<unit id="de.uniol.inf.is.odysseus.nlp.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.nmea.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.nmea.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.opcua.server.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.opcua.server.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.parallelization.dynamic.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.parallelization.dynamic.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.parallelization.feature.feature.group" version="0.0.0"/>
@@ -425,8 +423,6 @@
 			<unit id="de.uniol.inf.is.odysseus.wrapper.ncsa_hdf.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.opcda.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.opcda.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.wrapper.opcua.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.wrapper.opcua.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.optriscamera.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.optriscamera.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.wrapper.pcap.feature.feature.group" version="0.0.0"/>
