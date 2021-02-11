@@ -27,7 +27,6 @@ import org.slf4j.LoggerFactory;
 import com.google.common.base.Optional;
 import com.google.common.collect.Lists;
 
-import de.uniol.inf.is.odysseus.core.server.usermanagement.SessionManagement;
 import de.uniol.inf.is.odysseus.core.server.usermanagement.UserManagementProvider;
 import de.uniol.inf.is.odysseus.core.usermanagement.ISession;
 import de.uniol.inf.is.odysseus.report.IReport;
@@ -113,7 +112,7 @@ public class TestRunnerApplication implements IApplication {
 
 	private void printAdditionalInfos() {
 		// print infos about current system state (e.g. bundles etc.)
-		ISession session = SessionManagement.instance.login("System", "manager".getBytes(), UserManagementProvider.instance.getDefaultTenant());
+		ISession session = UserManagementProvider.instance.getSessionManagement().login("System", "manager".getBytes(), UserManagementProvider.instance.getDefaultTenant());
 		IReport rep = reportGenerator.generateReport(session);
 		LOG.debug("##########################Extended Information ");
 		for (String key: rep.getTitles()) {

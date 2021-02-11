@@ -27,7 +27,6 @@ import org.slf4j.LoggerFactory;
 
 import de.uniol.inf.is.odysseus.core.planmanagement.executor.exception.PlanManagementException;
 import de.uniol.inf.is.odysseus.core.server.planmanagement.executor.IServerExecutor;
-import de.uniol.inf.is.odysseus.core.server.usermanagement.SessionManagement;
 import de.uniol.inf.is.odysseus.core.server.usermanagement.UserManagementProvider;
 import de.uniol.inf.is.odysseus.core.usermanagement.ISession;
 import de.uniol.inf.is.odysseus.test.ExecutorProvider;
@@ -53,7 +52,7 @@ public abstract class AbstractTestComponent<T extends ITestContext, S extends IT
 	@Override
 	public void setupTest(T context) {
 		executor = ExecutorProvider.getExeuctor();
-		session = SessionManagement.instance.login(context.getUsername(), context.getPassword().getBytes(), UserManagementProvider.instance.getDefaultTenant());
+		session = UserManagementProvider.instance.getSessionManagement().login(context.getUsername(), context.getPassword().getBytes(), UserManagementProvider.instance.getDefaultTenant());
 		if (context.getDataRootPath() == null){
 			LOG.error("Error in context "+context);
 		}

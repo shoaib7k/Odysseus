@@ -282,8 +282,6 @@
 			<unit id="de.uniol.inf.is.odysseus.cep.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.cep.studio.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.cep.studio.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.complexnumber.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.complexnumber.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.context.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.context.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.context.rcp.feature.feature.group" version="0.0.0"/>
