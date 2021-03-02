@@ -75,8 +75,8 @@
 			<unit id="de.uniol.inf.is.odysseus.priority.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.probabilistic.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.probabilistic.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.profiling.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.profiling.feature.source.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.profiler.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.profiler.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.pubsub.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.pubsub.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.rcp.dashboard.part.map.feature.feature.group" version="0.0.0"/>
