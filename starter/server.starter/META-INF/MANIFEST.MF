@@ -6,7 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: de.uniol.inf.is.odysseus.product.server.starter.Activator
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.equinox.event;bundle-version="1.2.100",
- org.eclipse.osgi.services,
- de.uniol.inf.is.odysseus.slf4j
+ org.eclipse.osgi.services
 Bundle-Vendor: University of Oldenburg
 Automatic-Module-Name: de.uniol.inf.is.odysseus.server.starter
+Import-Package: org.slf4j
