@@ -56,6 +56,7 @@
       <feature id="de.uniol.inf.is.odysseus.server.platform.feature" installMode="root"/>
       <feature id="de.uniol.inf.is.odysseus.server.feature" installMode="root"/>
       <feature id="de.uniol.inf.is.odysseus.test.core.feature" installMode="root"/>
+      <feature id="de.uniol.inf.is.odysseus.slf4j.feature" installMode="root"/>
       <feature id="de.uniol.inf.is.odysseus.test.feature" installMode="root"/>
    </features>
 

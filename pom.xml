@@ -15,6 +15,7 @@
 
 	<modules>
 	    <module>de.uniol.inf.is.odysseus.slf4j</module>
+		<module>de.uniol.inf.is.odysseus.slf4j.feature</module>
 		<module>targetplatform</module>	
 		<module>starter</module>
 	</modules>
