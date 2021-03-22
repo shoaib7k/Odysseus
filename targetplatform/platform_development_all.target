@@ -307,6 +307,8 @@
 			<unit id="de.uniol.inf.is.odysseus.graph.server.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.eca.plugin.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.eca.plugin.feature.source.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.elasticsearch.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.elasticsearch.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.imagejcv.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.imagejcv.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.keyperformanceindicators.feature.feature.group" version="0.0.0"/>
