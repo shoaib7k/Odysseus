@@ -81,7 +81,6 @@
 			<unit id="org.scala.lang.scala.feature.feature.group" version="0.0.0"/>
 			<unit id="org.sesame.feature.feature.group" version="0.0.0"/>
 			<unit id="org.simpleframework.xml.feature.feature.group" version="0.0.0"/>
-			<unit id="org.slf4j_0.feature.feature.group" version="0.0.0"/>
 			<unit id="org.wso2.msf4j" version="0.0.0"/>
 			<unit id="org.xerial.snappy.java.feature.feature.group" version="0.0.0"/>
 			<unit id="qdox.feature.feature.group" version="0.0.0"/>
