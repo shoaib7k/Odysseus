@@ -121,6 +121,7 @@
 						<plugin id="org.sesame"/>
 						<plugin id="org.simpleframework.xml"/>
 						<plugin id="org.slf4j_0"/>
+						<plugin id="org.slf4j.api"/>
 						<plugin id="org.wso2.msf4j"/>
 						<plugin id="org.xerial.snappy-java"/>
 						<plugin id="qdox"/>
