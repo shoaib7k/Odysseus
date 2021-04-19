@@ -236,8 +236,6 @@
 			<unit id="de.uniol.inf.is.odysseus.rcp.evaluation.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.relational.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.relational.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.rest.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.rest.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.rest2.odysseus_client.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.rest2.odysseus_client.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.scheduling.feature.feature.group" version="0.0.0"/>
