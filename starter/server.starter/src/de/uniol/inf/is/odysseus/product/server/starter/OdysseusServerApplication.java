@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 
 public class OdysseusServerApplication implements IApplication {
 
-	private static Logger logger = LoggerFactory.getLogger(OdysseusServerApplication.class);
+	private static Logger logger = LoggerFactory.getLogger("Core");
 
 	private enum StopRequest {
 		NO, RESTART, EXIT
@@ -24,7 +24,7 @@ public class OdysseusServerApplication implements IApplication {
 
 	@Override
 	public Object start(IApplicationContext context) throws Exception {
-
+		logger.info("Starting Odysseus ...");
 		synchronized (OdysseusServerApplication.class) {
 //			Activator.waitForExecutor();					
 			registerEventHandler(Activator.getContext());
