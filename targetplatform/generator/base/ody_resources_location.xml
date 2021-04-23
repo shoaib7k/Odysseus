@@ -23,7 +23,7 @@
 			<unit id="de.uniol.inf.ei.oj104.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.jfreechart.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.common.resources.jdlms.feature.feature.group" version="0.0.0"/>
-			<!--<unit id="de.uniol.inf.is.odysseus.sigar.feature.feature.group" version="0.0.0"/>-->
+			<unit id="de.uniol.inf.is.odysseus.sigar.feature.feature.group" version="0.0.0"/>
 			<unit id="de.lmu.ifi.dbs.elki.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="0.0.0"/>
 			<unit id="fastutil.feature.feature.group" version="0.0.0"/>
