@@ -23,7 +23,7 @@
 			<unit id="de.uniol.inf.ei.oj104.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.jfreechart.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.common.resources.jdlms.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.sigar.feature.feature.group" version="0.0.0"/>
+			<!--<unit id="de.uniol.inf.is.odysseus.sigar.feature.feature.group" version="0.0.0"/>-->
 			<unit id="de.lmu.ifi.dbs.elki.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.xtext.feature.feature.group" version="0.0.0"/>
 			<unit id="fastutil.feature.feature.group" version="0.0.0"/>
@@ -68,7 +68,7 @@
 			<unit id="org.i0itec.zkclient.feature.feature.group" version="0.0.0"/>
 			<unit id="org.java.websocket.feature.feature.group" version="0.0.0"/>
 			<unit id="org.jboss.javassist.feature.feature.group" version="0.0.0"/>
-			<unit id="org.jboss.netty.feature.feature.group" version="0.0.0"/>
+			<!--<unit id="org.jboss.netty.feature.feature.group" version="0.0.0"/>-->
 			<unit id="org.jpmml.feature.feature.group" version="0.0.0"/>
 			<unit id="org.json.feature.feature.group" version="0.0.0"/>
 			<unit id="org.mihalis.opal.feature.feature.group" version="0.0.0"/>
@@ -77,7 +77,7 @@
 			<unit id="org.openmuc.jdlms.feature.feature.group" version="0.0.0"/>
 			<unit id="org.osgeo.proj4j.feature.feature.group" version="0.0.0"/>
 			<unit id="org.renjin.feature.feature.group" version="0.0.0"/>
-			<unit id="org.restlet.osgi.2.3.12.feature.feature.group" version="0.0.0"/>
+			<!--unit id="org.restlet.osgi.2.3.12.feature.feature.group" version="0.0.0"/>-->
 			<unit id="org.scala.lang.scala.feature.feature.group" version="0.0.0"/>
 			<unit id="org.sesame.feature.feature.group" version="0.0.0"/>
 			<unit id="org.simpleframework.xml.feature.feature.group" version="0.0.0"/>
