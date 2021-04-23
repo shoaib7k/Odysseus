@@ -55,7 +55,6 @@
 						<plugin id="de.uniol.inf.ei.oj104"/>
 						<plugin id="de.uniol.inf.is.jfreechart"/>
 						<plugin id="de.uniol.inf.is.odysseus.common.resources.jdlms.feature"/>
-						<plugin id="de.uniol.inf.is.odysseus.sigar"/>
 						<plugin id="de.uniol.inf.is.odysseus.slf4j"/>
 						<plugin id="de.uniol.inf.is.odysseus.xtext.feature"/>
 						<plugin id="de.lmu.ifi.dbs.elki"/>
@@ -127,7 +126,6 @@
 						<plugin id="qdox"/>
 						<plugin id="org.restlet-osgi-2.3.12"/>
 						<plugin id="rxtx"/>
-						<plugin id="sigar"/>
 						<plugin id="TestNG6.8"/>
 
 						<feature id="ANTLR3_4.feature"/>
@@ -151,7 +149,6 @@
 						<feature id="de.uniol.inf.ei.oj104.feature"/>
 						<feature id="de.uniol.inf.is.jfreechart.feature"/>
 						<feature id="de.uniol.inf.is.odysseus.common.resources.jdlms.feature.feature"/>
-						<feature id="de.uniol.inf.is.odysseus.sigar.feature"/>
 						<feature id="de.uniol.inf.is.odysseus.xtext.feature.feature"/>
 						<feature id="fastutil.feature"/>
 						<feature id="fr.bmartel.pcapdecoder.feature"/>
@@ -216,7 +213,6 @@
 						<feature id="qdox.feature"/>
 						<feature id="org.restlet-osgi-2.3.12.feature"/>
 						<feature id="rxtx.feature"/>
-						<feature id="sigar.feature"/>
 						<feature id="TestNG6.8.feature"/>
 						<feature id="de.uniol.inf.is.odysseus.wrapper.websocket.feature"/>
 						<feature id="de.uniol.inf.is.odysseus.planmanagement.executor.rest.client.feature"/>
