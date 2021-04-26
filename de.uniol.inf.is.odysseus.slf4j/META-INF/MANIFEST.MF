@@ -1,24 +1,15 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Odyssseus Slf4j Over Log4J Wrapper
-Bundle-SymbolicName: de.uniol.inf.is.odysseus.slf4j
+Bundle-SymbolicName: de.uniol.inf.is.odysseus.slf4j;singleton:=true
 Bundle-Version: 1.7.25.qualifier
 Bundle-ClassPath: .,
- lib/log4j-1.2-api-2.11.1.jar,
- lib/log4j-api-2.11.1.jar,
- lib/slf4j-api-1.7.25.jar,
- lib/slf4j-log4j12-1.7.25.jar,
- lib/log4j-core-2.11.1.jar,
- lib/slf4j-simple-1.7.25.jar
+ lib/log4j-api-2.14.1.jar,
+ lib/log4j-core-2.14.1.jar,
+ lib/log4j-slf4j-impl-2.14.1.jar,
+ lib/slf4j-api-1.7.25.jar
 Eclipse-BundleShape: dir  
 Export-Package: de.uniol.inf.is.odysseus.slf4j,
- org.apache.log4j,
- org.apache.log4j.config,
- org.apache.log4j.helpers,
- org.apache.log4j.layout,
- org.apache.log4j.pattern,
- org.apache.log4j.spi,
- org.apache.log4j.xml,
  org.apache.logging.log4j,
  org.apache.logging.log4j.core,
  org.apache.logging.log4j.core.appender,
@@ -55,6 +46,7 @@ Export-Package: de.uniol.inf.is.odysseus.slf4j,
  org.apache.logging.log4j.core.jackson,
  org.apache.logging.log4j.core.jmx,
  org.apache.logging.log4j.core.layout,
+ org.apache.logging.log4j.core.layout.internal,
  org.apache.logging.log4j.core.lookup,
  org.apache.logging.log4j.core.message,
  org.apache.logging.log4j.core.net,
@@ -70,11 +62,14 @@ Export-Package: de.uniol.inf.is.odysseus.slf4j,
  org.apache.logging.log4j.core.tools.picocli,
  org.apache.logging.log4j.core.util,
  org.apache.logging.log4j.core.util.datetime,
+ org.apache.logging.log4j.internal,
  org.apache.logging.log4j.message,
  org.apache.logging.log4j.simple,
  org.apache.logging.log4j.spi,
  org.apache.logging.log4j.status,
  org.apache.logging.log4j.util,
+ org.apache.logging.log4j.util.internal,
+ org.apache.logging.slf4j,
  org.slf4j,
  org.slf4j.event,
  org.slf4j.helpers,
@@ -82,3 +77,5 @@ Export-Package: de.uniol.inf.is.odysseus.slf4j,
  org.slf4j.spi
 Automatic-Module-Name: de.uniol.inf.is.odysseus.slf4j
 Bundle-ActivationPolicy: lazy
+Bundle-Activator: de.uniol.inf.is.odysseus.slf4j.Activator
+Import-Package: org.osgi.framework;version="1.9.0"

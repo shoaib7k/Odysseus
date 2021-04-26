@@ -4,13 +4,13 @@ Bundle-Name: Test Core Bundle
 Bundle-SymbolicName: de.uniol.inf.is.odysseus.test.core;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Import-Package: org.osgi.framework;version="1.6.0",
- org.osgi.service.component;version="1.1.0"
+ org.osgi.service.component;version="1.1.0",
+ org.slf4j
 Service-Component: OSGI-INF/*
 Require-Bundle: de.uniol.inf.is.odysseus.core,
  de.uniol.inf.is.odysseus.core.server,
  de.uniol.inf.is.odysseus.planmanagement.executor.standardexecutor,
  de.uniol.inf.is.odysseus.mep,
- de.uniol.inf.is.odysseus.slf4j,
  de.uniol.inf.is.odysseus.script.parser,
  com.google.guava;bundle-version="18.0.0",
  de.uniol.inf.is.odysseus.keyvalue.datatype;bundle-version="1.0.0",
@@ -18,7 +18,8 @@ Require-Bundle: de.uniol.inf.is.odysseus.core,
  de.uniol.inf.is.odysseus.report,
  de.uniol.inf.is.odysseus.relational_interval;bundle-version="1.0.0",
  de.uniol.inf.is.odysseus.sweeparea;bundle-version="1.0.0",
- de.uniol.inf.is.odysseus.intervalapproach;bundle-version="1.0.0"
+ de.uniol.inf.is.odysseus.intervalapproach;bundle-version="1.0.0",
+ de.uniol.inf.is.odysseus.slf4j;bundle-version="1.7.25";resolution:=optional
 Export-Package: de.uniol.inf.is.odysseus.test,
  de.uniol.inf.is.odysseus.test.cheatsheet,
  de.uniol.inf.is.odysseus.test.checks,

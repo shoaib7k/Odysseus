@@ -69,6 +69,8 @@ public class OdysseusStudioApplication implements IApplication {
 	private static Logger LOG = LoggerFactory.getLogger(OdysseusStudioApplication.class);	
 	private static final String DEBUG_SWT_SYS_PROPERTY = "debug.swt";
 	
+	private Appender appender;
+	
 	@Override
 	public synchronized Object start(IApplicationContext context) {
 
@@ -89,8 +91,10 @@ public class OdysseusStudioApplication implements IApplication {
 				}
 			});
 				
-			return PlatformUI.createAndRunWorkbench(display, new ApplicationWorkbenchAdvisor()) 
-					== PlatformUI.RETURN_RESTART ? IApplication.EXIT_RESTART : IApplication.EXIT_OK;									
+			Integer val = PlatformUI.createAndRunWorkbench(display, new ApplicationWorkbenchAdvisor()) 
+					== PlatformUI.RETURN_RESTART ? IApplication.EXIT_RESTART : IApplication.EXIT_OK;		
+			removeAppenderFromLoggers(appender);
+			return val;
 		} catch (Throwable t) {
 			LOG.error("Exception during running application", t);
 			return null;
@@ -114,6 +118,9 @@ public class OdysseusStudioApplication implements IApplication {
 
 	@Override
 	public void stop() {
+		removeAppenderFromLoggers(appender);
+		//appender.stop();
+		
 		final IWorkbench workbench = PlatformUI.getWorkbench();
 		if (workbench == null)
 			return;
@@ -300,20 +307,22 @@ public class OdysseusStudioApplication implements IApplication {
 		final LoggerContext context = LoggerContext.getContext(false);
 		final Configuration config = context.getConfiguration();
 		final PatternLayout layout = PatternLayout.createDefaultLayout(config);
-		final Appender appender = OutputStreamAppender.createAppender(layout, null, outputStream, outputStreamName,
+		appender = OutputStreamAppender.createAppender(layout, null, outputStream, outputStreamName,
 				false, true);
 		appender.start();
 		config.addAppender(appender);
-		updateLoggers(appender, config);
-	}
-
-	private void updateLoggers(final Appender appender, final Configuration config) {
 		final Level level = null;
 		final Filter filter = null;
 		for (final LoggerConfig loggerConfig : config.getLoggers().values()) {
 			loggerConfig.addAppender(appender, level, filter);
 		}
 		config.getRootLogger().addAppender(appender, level, filter);
+	}
+	
+	private void removeAppenderFromLoggers(final Appender appender) {
+		final LoggerContext context = LoggerContext.getContext(false);
+		final Configuration config = context.getConfiguration();
+		config.getRootLogger().removeAppender(appender.getName());
 	}
 
 	private MessageConsole findConsole(String name) {
