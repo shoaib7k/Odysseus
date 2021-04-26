@@ -77,5 +77,4 @@ Export-Package: de.uniol.inf.is.odysseus.slf4j,
  org.slf4j.spi
 Automatic-Module-Name: de.uniol.inf.is.odysseus.slf4j
 Bundle-ActivationPolicy: lazy
-Bundle-Activator: de.uniol.inf.is.odysseus.slf4j.Activator
 Import-Package: org.osgi.framework;version="1.9.0"
