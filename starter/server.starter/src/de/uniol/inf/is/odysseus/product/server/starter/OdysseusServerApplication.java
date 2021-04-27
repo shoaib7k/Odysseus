@@ -49,7 +49,7 @@ public class OdysseusServerApplication implements IApplication {
 	}
 
 	public void registerEventHandler(BundleContext context) {
-
+		logger.trace("Registering Event handler for Odysseus Application");
 		String[] topics = new String[] { EventConstants.EVENT_TOPIC, "de/uniol/inf/odysseus/application/*" };
 		Dictionary<String, Object> ht = new Hashtable<String, Object>();
 		ht.put(EventConstants.EVENT_TOPIC, topics);
@@ -61,9 +61,11 @@ public class OdysseusServerApplication implements IApplication {
 				logger.debug("got odysseus application message: " + event);
 				if (event.getProperty("TYPE").equals("RESTART")) {					
 					stopRequested = StopRequest.RESTART;
+					OdysseusServerApplication.class.notifyAll();
 				}
 				if (event.getProperty("TYPE").equals("EXIT")) {					
 					stopRequested = StopRequest.EXIT;
+					OdysseusServerApplication.class.notifyAll();
 				}
 			}
 		}, ht);
