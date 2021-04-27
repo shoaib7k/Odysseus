@@ -24,7 +24,6 @@ public class OdysseusServerApplication implements IApplication {
 
 	@Override
 	public Object start(IApplicationContext context) throws Exception {
-		logger.info("Starting Odysseus ...");
 		synchronized (OdysseusServerApplication.class) {
 //			Activator.waitForExecutor();					
 			registerEventHandler(Activator.getContext());
@@ -33,7 +32,7 @@ public class OdysseusServerApplication implements IApplication {
 				OdysseusServerApplication.class.wait(5000);
 			}
 		}
-		
+
 		if (stopRequested == StopRequest.RESTART) {
 			logger.info("Restarting Odysseus...");
 			return IApplication.EXIT_RESTART;
@@ -59,11 +58,11 @@ public class OdysseusServerApplication implements IApplication {
 			@Override
 			public void handleEvent(Event event) {
 				logger.debug("got odysseus application message: " + event);
-				if (event.getProperty("TYPE").equals("RESTART")) {					
+				if (event.getProperty("TYPE").equals("RESTART")) {
 					stopRequested = StopRequest.RESTART;
 					OdysseusServerApplication.class.notifyAll();
 				}
-				if (event.getProperty("TYPE").equals("EXIT")) {					
+				if (event.getProperty("TYPE").equals("EXIT")) {
 					stopRequested = StopRequest.EXIT;
 					OdysseusServerApplication.class.notifyAll();
 				}
