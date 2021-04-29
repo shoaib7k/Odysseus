@@ -23,7 +23,7 @@ http://odysseus.informatik.uni-oldenburg.de/
       <programArgsLin>--launcher.GTK_version 
 2
       </programArgsLin>
-      <vmArgs>-Xms1000M -Xmx1000M -Xms1000M -Xmx1000M -Dsysredirect=true -Declipse.p2.mirrors=false -Declipse.log.level=ERROR
+      <vmArgs>-Xms1000M -Xmx1000M -Xms1000M -Xmx1000M -XX:+UseG1GC -Dsysredirect=true -Declipse.p2.mirrors=false -Declipse.log.level=ERROR
       </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
