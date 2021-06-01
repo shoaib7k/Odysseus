@@ -91,6 +91,8 @@
 			<unit id="de.uniol.inf.is.odysseus.sentimentanalysis.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.sentimentdetection.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.sentimentdetection.feature.source.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.classification.feature.feature.group" version="0.0.0"/>
+			<unit id="de.uniol.inf.is.odysseus.server.classification.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.server.fragmentation.base.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.server.fragmentation.base.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.server.rdf.feature.feature.group" version="0.0.0"/>
