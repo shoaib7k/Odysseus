@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
-<target name="Odysseus Target Platform (development all)" sequenceNumber="1730000015">
+<target name="Odysseus Target Platform (development all)" sequenceNumber="1730000016">
 	<locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.core.runtime.feature.feature.group" version="0.0.0"/>
@@ -357,8 +357,6 @@
 			<unit id="de.uniol.inf.is.odysseus.s100.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.scai.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.scai.feature.source.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.securitypunctuation.feature.feature.group" version="0.0.0"/>
-			<unit id="de.uniol.inf.is.odysseus.securitypunctuation.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.sentimentanalysis.feature.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.sentimentanalysis.feature.source.feature.group" version="0.0.0"/>
 			<unit id="de.uniol.inf.is.odysseus.sentimentdetection.feature.feature.group" version="0.0.0"/>
