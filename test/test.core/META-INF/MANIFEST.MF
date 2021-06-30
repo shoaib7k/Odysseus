@@ -18,8 +18,7 @@ Require-Bundle: de.uniol.inf.is.odysseus.core,
  de.uniol.inf.is.odysseus.report,
  de.uniol.inf.is.odysseus.relational_interval;bundle-version="1.0.0",
  de.uniol.inf.is.odysseus.sweeparea;bundle-version="1.0.0",
- de.uniol.inf.is.odysseus.intervalapproach;bundle-version="1.0.0",
- de.uniol.inf.is.odysseus.slf4j;bundle-version="1.7.25";resolution:=optional
+ de.uniol.inf.is.odysseus.intervalapproach;bundle-version="1.0.0"
 Export-Package: de.uniol.inf.is.odysseus.test,
  de.uniol.inf.is.odysseus.test.cheatsheet,
  de.uniol.inf.is.odysseus.test.checks,
