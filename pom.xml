@@ -28,6 +28,24 @@
 			</modules>
 		</profile>
 		<profile>
+			<id>serverproduct</id>
+			<modules>
+				<module>products/server</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>clientproduct</id>
+			<modules>
+				<module>products/client</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>monolithicproduct</id>
+			<modules>
+				<module>products/monolithic</module>
+			</modules>
+		</profile>
+		<profile>
 			<id>test</id>
 			<modules>
 				<module>test</module>	
