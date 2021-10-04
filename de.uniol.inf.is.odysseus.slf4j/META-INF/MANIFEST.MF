@@ -7,7 +7,8 @@ Bundle-ClassPath: .,
  lib/log4j-api-2.14.1.jar,
  lib/log4j-core-2.14.1.jar,
  lib/log4j-slf4j-impl-2.14.1.jar,
- lib/slf4j-api-1.7.25.jar
+ lib/slf4j-api-1.7.25.jar,
+ lib/log4j-slf4j18-impl-2.14.1.jar
 Eclipse-BundleShape: dir  
 Export-Package: de.uniol.inf.is.odysseus.slf4j,
  org.apache.logging.log4j,
@@ -76,5 +77,4 @@ Export-Package: de.uniol.inf.is.odysseus.slf4j,
  org.slf4j.impl,
  org.slf4j.spi
 Automatic-Module-Name: de.uniol.inf.is.odysseus.slf4j
-Bundle-ActivationPolicy: lazy
 Import-Package: org.osgi.framework;version="1.9.0"
