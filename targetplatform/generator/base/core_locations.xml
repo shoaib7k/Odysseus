@@ -45,6 +45,7 @@
 			<unit id="org.eclipse.xtext.sdk.feature.group" version="0.0.0"/>
 			<unit id="org.apache.xmlgraphics" version="0.0.0"/>
 			<unit id="org.apache.commons.io" version="0.0.0"/>
+			<unit id="org.apache.commons.codec" version="0.0.0"/>
 			<repository location="https://ftp.fau.de/eclipse/releases/2020-06/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
@@ -65,7 +66,6 @@
 			<unit id="javax.xml.soap" version="0.0.0"/>
 			<unit id="javax.xml.stream" version="0.0.0"/>
 			<unit id="javax.xml.ws" version="0.0.0"/>
-			<unit id="org.apache.commons.codec" version="0.0.0"/>
 			<unit id="org.apache.commons.collections" version="0.0.0"/>
 			<unit id="org.apache.commons.compress" version="0.0.0"/>
 			<unit id="org.apache.httpcomponents.httpcore" version="0.0.0"/>
