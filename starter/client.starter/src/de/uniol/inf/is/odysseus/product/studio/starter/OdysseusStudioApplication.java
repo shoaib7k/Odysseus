@@ -71,6 +71,10 @@ public class OdysseusStudioApplication implements IApplication {
 	
 	private Appender appender;
 	
+	public OdysseusStudioApplication() {
+		LoggerFactory.getLogger("Core");
+	}
+	
 	@Override
 	public synchronized Object start(IApplicationContext context) {
 
