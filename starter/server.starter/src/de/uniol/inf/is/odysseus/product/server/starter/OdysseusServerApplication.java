@@ -20,6 +20,10 @@ public class OdysseusServerApplication implements IApplication {
 		NO, RESTART, EXIT
 	};
 
+	public OdysseusServerApplication() {
+		LoggerFactory.getLogger("Core");
+	}
+	
 	private StopRequest stopRequested = StopRequest.NO;
 
 	@Override
