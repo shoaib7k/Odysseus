@@ -9,7 +9,7 @@
    <launcherArgs>
       <programArgs>-console -clean -debug -nl en -profile OdysseusProfile
       </programArgs>
-      <vmArgs>-Xms1000M -Xmx1000M -XX:+UseG1GC  -Declipse.log.level=ERROR
+      <vmArgs>-Xms1000M -Xmx1000M -XX:+UseG1GC  -Declipse.log.level=ERROR -Dlog4j2.disable.jmx=true
       </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>

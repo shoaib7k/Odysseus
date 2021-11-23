@@ -18,7 +18,7 @@ http://odysseus.informatik.uni-oldenburg.de/
    </configIni>
 
    <launcherArgs>
-      <programArgs>-Xms1000M -Xmx1000M -Xms1000M -Xmx1000M -Dsysredirect=true -Declipse.p2.mirrors=false -Declipse.log.level=ERROR -console -debug
+      <programArgs>-Xms1000M -Xmx1000M -Xms1000M -Xmx1000M -Dsysredirect=true -Declipse.p2.mirrors=false -Declipse.log.level=ERROR -Dlog4j2.disable.jmx=true -console -debug
       </programArgs>
       <programArgsLin>--launcher.GTK_version 
 2
