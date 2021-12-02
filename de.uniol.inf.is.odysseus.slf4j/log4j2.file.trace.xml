@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="error" monitorInterval="5">
+<Configuration shutdownHook="disable" status="error" monitorInterval="5">
     <Properties>
         <Property name="APP_LOG_ROOT">logs</Property>
     </Properties>
