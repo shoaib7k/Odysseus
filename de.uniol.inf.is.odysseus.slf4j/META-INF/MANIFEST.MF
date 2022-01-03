@@ -5,9 +5,9 @@ Bundle-SymbolicName: de.uniol.inf.is.odysseus.slf4j;singleton:=true
 Bundle-Version: 1.7.25.qualifier
 Bundle-ClassPath: .,
  lib/slf4j-api-1.7.32.jar,
- lib/log4j-api-2.17.0.jar,
- lib/log4j-core-2.17.0.jar,
- lib/log4j-slf4j-impl-2.17.0.jar
+ lib/log4j-api-2.17.1.jar,
+ lib/log4j-core-2.17.1.jar,
+ lib/log4j-slf4j-impl-2.17.1.jar
 Eclipse-BundleShape: dir  
 Export-Package: de.uniol.inf.is.odysseus.slf4j,
  org.apache.logging.log4j,
