@@ -40,7 +40,6 @@ import de.uniol.inf.is.odysseus.core.datahandler.DataHandlerRegistry;
 import de.uniol.inf.is.odysseus.core.logicaloperator.LogicalOperatorInformation;
 import de.uniol.inf.is.odysseus.core.logicaloperator.LogicalParameterInformation;
 import de.uniol.inf.is.odysseus.core.mep.IMepFunction;
-import de.uniol.inf.is.odysseus.core.physicaloperator.access.protocol.ProtocolHandlerRegistry;
 import de.uniol.inf.is.odysseus.core.sdf.schema.SDFDatatype;
 import de.uniol.inf.is.odysseus.core.server.physicaloperator.aggregate.AggregateFunctionBuilderRegistry;
 import de.uniol.inf.is.odysseus.core.server.usermanagement.UserManagementProvider;
@@ -373,7 +372,9 @@ public class CheatSheetGenerator {
 
     private static void buildProtocolHandlers(final StringBuilder builder) {
         builder.append("\\subsection{Protocol Handlers}\n");
-        final List<String> protocols = new ArrayList<>(ProtocolHandlerRegistry.instance.getHandlerNames());
+        // FIXME: Use a service
+        //final List<String> protocols = new ArrayList<>(ProtocolHandlerRegistry.instance.getHandlerNames());
+        final List<String> protocols = new ArrayList<>();
         Collections.sort(protocols);
         builder.append("\\begin{multicols}{2}\n");
         for (final String protocol : protocols) {
